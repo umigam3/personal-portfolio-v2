@@ -1,12 +1,12 @@
-import Button from "./ui/button";
-import LinkedInIcon from "./icons/linkedin";
-import GitHubIcon from "./icons/github";
-import ResumeIcon from "./icons/resume";
+import Button from "@ui/button";
+import LinkedInIcon from "@icons/linkedin";
+import GitHubIcon from "@icons/github";
+import ResumeIcon from "@icons/resume";
 
 export default function Hero() {
   return (
     <section id="hero" className="md:pt-12 pt-4 max-w-6xl mx-auto w-full">
-      <div className="relative flex flex-col mb-8 lg:mb-52">
+      <div className="relative flex flex-col mb-8">
         <div className="w-full lg:w-3/4 flex flex-col justify-center lg:mt-0 -mt-14 md:z-10">
           <h1 className=" md:leading-tight md:text-6xl text-4xl font-extrabold bg-gradient-to-r text-c mb-4 text-primary">
             <span className="inline lg:block">Hello! I'm</span>

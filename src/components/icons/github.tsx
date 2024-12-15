@@ -1,9 +1,4 @@
-import React from "react";
-
-interface IconProps {
-  className?: string;
-  size?: number;
-}
+import type { IconProps } from "@interfaces/icon-props";
 
 export default function GitHub({ className, size = 16 }: IconProps) {
   return (
