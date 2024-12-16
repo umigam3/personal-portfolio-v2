@@ -1,4 +1,4 @@
-import type { IconProps } from "@interfaces/icon-props";
+import type { IconProps } from "@interfaces/IconProps";
 
 export default function PhpCarousel({ className, size = 16 }: IconProps) {
   return (

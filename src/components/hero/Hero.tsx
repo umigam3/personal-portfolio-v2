@@ -1,8 +1,8 @@
-import Button from "@ui/button";
-import LinkedInIcon from "@icons/linkedin";
-import GitHubIcon from "@icons/github";
-import ResumeIcon from "@icons/resume";
-import Carousel from "./carousel";
+import Button from "@ui/Button";
+import LinkedInIcon from "@components/icons/LinkedIn";
+import GitHubIcon from "@components/icons/GitHub";
+import ResumeIcon from "@components/icons/Resume";
+import Carousel from "@components/hero/Carousel";
 
 export default function Hero() {
   return (

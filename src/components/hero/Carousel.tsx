@@ -1,13 +1,13 @@
-import PhpCarousel from "@components/icons/php-carousel";
-import Laravel from "@components/icons/laravel";
-import Html from "@components/icons/html";
-import Css from "@components/icons/css";
-import JavaScript from "@components/icons/javascript";
-import Sql from "@components/icons/sql";
-import Git from "@components/icons/git";
-import React from "@components/icons/react";
-import Tailwind from "@components/icons/tailwind";
-import VisualStudioCode from "@components/icons/visualstudiocode";
+import PhpCarousel from "@components/icons/PhpCarousel";
+import Laravel from "@components/icons/Laravel";
+import Html from "@components/icons/Html";
+import Css from "@components/icons/Css";
+import JavaScript from "@components/icons/JavaScript";
+import Sql from "@components/icons/Sql";
+import Git from "@components/icons/Git";
+import React from "@components/icons/React";
+import Tailwind from "@components/icons/Tailwind";
+import VisualStudioCode from "@components/icons/VisualStudioCode";
 
 export default function Carousel() {
   return (
