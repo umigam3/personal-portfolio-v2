@@ -6,10 +6,17 @@ import Carousel from "@components/hero/Carousel";
 
 export default function Hero() {
   return (
-    <section id="hero" className="w-full pt-8">
-      <div className="relative flex flex-col mb-12">
+    <section id="hero" className="w-full pt-8 mb-16">
+      <div className="relative flex flex-col mb-16">
+        <img
+          style={{
+            maskImage: "linear-gradient(to bottom, black 50%, transparent)",
+          }}
+          className="absolute w-[500px] right-14 mask-gradient-to-bottom"
+          src="/hero.webp"
+        ></img>
         <div className="w-full lg:w-3/4 flex flex-col justify-center lg:mt-0 md:z-10">
-          <h1 className=" md:leading-tight md:text-6xl text-5xl font-extrabold bg-gradient-to-r text-c mb-4 text-primary">
+          <h1 className="md:leading-tight md:text-6xl text-5xl font-extrabold bg-gradient-to-r text-c mb-4 text-primary">
             <span className="inline lg:block">Hello! I'm </span>
             <span className="inline lg:block">Gerard Doncel a </span>
             <span className="text-secondary font-extrabold inline lg:block">

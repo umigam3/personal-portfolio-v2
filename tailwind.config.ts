@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      maskImage: {
+        "gradient-bottom": "linear-gradient(to bottom, black 60%, transparent)",
+      },
       animation: {
         "infinite-scroll": "infinite-scroll 25s linear infinite",
       },
@@ -21,6 +24,9 @@ export default {
         primary: "#A587E6",
         secondary: "#F7C36E",
       },
+    },
+    corePlugins: {
+      maskImage: true, // Habilita las utilidades de `mask-image`
     },
   },
   plugins: [],
