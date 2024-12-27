@@ -10,6 +10,10 @@ import Badge from "@components/ui/Badge";
 import ExperienceCard from "@components/experience/ExperienceCard";
 import Php from "@components/icons/Php";
 import Livewire from "@components/icons/Livewire";
+import Bootstrap from "@components/icons/Bootstrap";
+import TypeScript from "@components/icons/TypeScript";
+import Angular from "@components/icons/Angular";
+import Css from "@components/icons/Css";
 
 export default function Experience() {
   return (
@@ -47,7 +51,66 @@ export default function Experience() {
               <Html className="w-3 h-4" />
             </Badge>
             <Badge color="sky" skill="Tailwind">
-              <Tailwind className="w-3 h-4" />
+              <Tailwind />
+            </Badge>
+            <Badge color="slate" skill="MySQL">
+              <Sql />
+            </Badge>
+            <Badge color="amber" skill="Git">
+              <Git />
+            </Badge>
+          </div>
+        </ExperienceCard>
+        <ExperienceCard
+          date="Jan 2023 - Oct 2024"
+          position="Web Developer"
+          company="3&Punt"
+          description="Developing quality Moodle plugins and integrations. Utilizing technologies to enhance the Moodle e-learning experience. Collaborating with clients, I analyze requirements to craft optimal solutions and ensure smooth integration."
+          side="right"
+        >
+          <div className="flex flex-wrap justify-start md:justify-end">
+            <Badge color="indigo" skill="PHP">
+              <Php />
+            </Badge>
+            <Badge color="yellow" skill="JavaScript">
+              <JavaScript />
+            </Badge>
+            <Badge color="orange" skill="HTML">
+              <Html className="w-3 h-4" />
+            </Badge>
+            <Badge color="sky" skill="Bootstrap">
+              <Bootstrap className="w-3 h-4" />
+            </Badge>
+            <Badge color="slate" skill="MySQL">
+              <Sql />
+            </Badge>
+            <Badge color="amber" skill="Git">
+              <Git />
+            </Badge>
+          </div>
+        </ExperienceCard>
+        <ExperienceCard
+          date="Apr 2022 - Sep 2022"
+          position="Full Stack Developer"
+          company="Namastech"
+          description="Fixing general bugs of their web application. (4DMOVIN) Development of small tools to imporve web utility. Building WordPress sites, including landing pages, working with woo-commerce."
+          side="left"
+        >
+          <div className="flex flex-wrap justify-start md:justify-end">
+            <Badge color="indigo" skill="PHP">
+              <Php />
+            </Badge>
+            <Badge color="red" skill="Angular">
+              <Angular />
+            </Badge>
+            <Badge color="yellow" skill="TypeScript">
+              <TypeScript />
+            </Badge>
+            <Badge color="orange" skill="HTML">
+              <Html />
+            </Badge>
+            <Badge color="sky" skill="CSS">
+              <Css />
             </Badge>
             <Badge color="slate" skill="MySQL">
               <Sql />
