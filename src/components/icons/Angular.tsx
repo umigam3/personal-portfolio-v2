@@ -11,6 +11,7 @@ export default function Angular({ className, size = 16 }: IconProps) {
           x="0"
           y="0"
           maskUnits="userSpaceOnUse"
+          style={{ maskType: "luminance" }}
         >
           <path fill="#fff" d="M0 0h242v256H0V0Z" />
         </mask>

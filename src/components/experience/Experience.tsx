@@ -12,6 +12,7 @@ import Php from "@components/icons/Php";
 import Livewire from "@components/icons/Livewire";
 import Bootstrap from "@components/icons/Bootstrap";
 import TypeScript from "@components/icons/TypeScript";
+import WordPress from "@components/icons/WordPress";
 import Angular from "@components/icons/Angular";
 import Css from "@components/icons/Css";
 
@@ -105,6 +106,9 @@ export default function Experience() {
             </Badge>
             <Badge color="yellow" skill="TypeScript">
               <TypeScript />
+            </Badge>
+            <Badge color="slate" skill="WordPress">
+              <WordPress />
             </Badge>
             <Badge color="orange" skill="HTML">
               <Html />
