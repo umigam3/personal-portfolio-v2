@@ -8,6 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+      textIndent: {
+        sm: "2rem",
+        md: "4rem",
+        lg: "8rem",
+      },
+      fontFamily: {
+        delirium: ["Delirium", "sans-serif"],
+      },
       maskImage: {
         "gradient-bottom": "linear-gradient(to bottom, black 60%, transparent)",
       },
@@ -26,8 +34,8 @@ export default {
       },
     },
     corePlugins: {
-      maskImage: true, // Habilita las utilidades de `mask-image`
+      maskImage: true,
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-text-indent")],
 } satisfies Config;

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@styles/globals.css";
 import "@fontsource-variable/onest";
 import Header from "@components/Header";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Gerard Doncel",
@@ -15,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="color-scheme" content="dark" />
+      </Head>
       <body className="antialiased text-white">
         <Header />
         <div className="fixed w-full h-dvh -z-10">
