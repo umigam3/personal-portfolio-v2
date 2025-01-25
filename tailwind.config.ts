@@ -8,11 +8,6 @@ export default {
   ],
   theme: {
     extend: {
-      textIndent: {
-        sm: "2rem",
-        md: "4rem",
-        lg: "8rem",
-      },
       fontFamily: {
         delirium: ["Delirium", "sans-serif"],
       },
@@ -37,5 +32,5 @@ export default {
       maskImage: true,
     },
   },
-  plugins: [require("tailwindcss-text-indent")],
+  plugins: [],
 } satisfies Config;
