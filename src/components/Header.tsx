@@ -1,6 +1,15 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function Header() {
   return (
-    <header className="sticky top-0 bg-black/0 backdrop-blur-xl z-20">
+    <motion.header
+      className="sticky top-0 bg-black/0 backdrop-blur-xl z-20 border-b-[1px] border-slate-500/20"
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5, delay: 0.5 }}
+    >
       <div className="flex py-5 mx-auto px-6 justify-between items-center">
         <div className="flex items-center gap-3">
           <span className="font-semibold">GERARD DONCEL</span>
@@ -13,6 +22,6 @@ export default function Header() {
           <a href="#contact">Contact</a>
         </nav>
       </div>
-    </header>
+    </motion.header>
   );
 }

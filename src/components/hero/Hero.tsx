@@ -1,5 +1,4 @@
-"use client";
-
+import Button from "@components/ui/Button";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -18,16 +17,24 @@ export default function Hero() {
           <motion.h1
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
             className="text-[300px] -mb-24 text-secondary"
           >
             DEVELOPER
           </motion.h1>
         </div>
-        <div className="text-2xl text-indent-lg indent-[8rem] mb-16 max-w-lg">
-          {" "}
-          Computer Engineer with more than 2 years in web development and solid
-          skills in PHP.
+        <div className="flex flex-col">
+          <div className="text-2xl indent-[8rem] max-w-lg -mb-3 text-justify">
+            {" "}
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries.
+          </div>
+          <div className="flex justify-end mb-4">
+            <Button href="#contanct" label="Contact me" />
+          </div>
         </div>
       </div>
     </section>
