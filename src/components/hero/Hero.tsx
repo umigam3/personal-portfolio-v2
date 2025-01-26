@@ -26,11 +26,10 @@ export default function Hero() {
         <div className="flex flex-col">
           <div className="text-2xl indent-[8rem] max-w-lg -mb-3 text-justify">
             {" "}
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has survived
-            not only five centuries.
+            Hello! I&apos;m Gerard Doncel, a Computer Engineer with over 2 years
+            of experience in developing web applications and with solid skills
+            in PHP and JavaScript, I am dedicated to delivering exceptional user
+            experiences through clean, efficient, and innovative solutions.
           </div>
           <div className="flex justify-end mb-4">
             <Button href="#contanct" label="Contact me" />
