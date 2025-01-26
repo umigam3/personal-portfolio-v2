@@ -2,7 +2,14 @@ import type { IconProps } from "@interfaces/IconProps";
 
 export default function Angular({ className, size = 16 }: IconProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 242 256">
+    <svg
+      className={className}
+      width={size}
+      height={size}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 242 256"
+    >
       <g clipPath="url(#a)">
         <mask
           id="b"

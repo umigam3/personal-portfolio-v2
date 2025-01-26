@@ -3,6 +3,7 @@ import type { IconProps } from "@interfaces/IconProps";
 export default function GitHub({ className, size = 16 }: IconProps) {
   return (
     <svg
+      className={className}
       width={size}
       height={size}
       xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +13,6 @@ export default function GitHub({ className, size = 16 }: IconProps) {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="icon icon-tabler icons-tabler-outline icon-tabler-file-description"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
