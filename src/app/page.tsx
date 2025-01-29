@@ -1,6 +1,7 @@
 "use client";
 
 import Experience from "@components/experience/Experience";
+import About from "@components/about/About";
 import Hero from "@components/hero/Hero";
 import { useEffect } from "react";
 
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <main className="w-full mx-auto px-6">
       <Hero />
+      <About />
       <Experience />
     </main>
   );
