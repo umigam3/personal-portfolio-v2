@@ -24,7 +24,7 @@ export default function Hero() {
           </motion.h1>
         </div>
         <div className="flex flex-col">
-          <div className="text-2xl indent-[8rem] max-w-lg -mb-3 text-justify">
+          <div className="text-xl indent-[8rem] max-w-lg -mb-3 text-justify">
             {" "}
             Hello! I&apos;m Gerard Doncel, a Computer Engineer with over 2 years
             of experience in developing web applications and with solid skills
