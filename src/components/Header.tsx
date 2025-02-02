@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Header() {
   return (
     <motion.header
-      className="sticky top-0 bg-black/0 backdrop-blur-xl z-20 border-b-[1px] border-slate-500/20"
+      className="sticky top-0 bg-black/0 backdrop-blur-md z-20 border-b border-slate-400"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }}

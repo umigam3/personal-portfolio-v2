@@ -4,6 +4,7 @@ import "@fontsource-variable/onest";
 import Header from "@components/Header";
 import Head from "next/head";
 import Cursor from "@components/Cursor";
+import SmoothScrolling from "@providers/SmoothScrolling";
 
 export const metadata: Metadata = {
   title: "Gerard Doncel",
@@ -17,13 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="color-scheme" content="dark" />
-      </Head>
       <body className="text-white">
-        <Cursor />
-        <Header />
-        {children}
+        <SmoothScrolling>
+          <Cursor />
+          <Header />
+          {children}
+        </SmoothScrolling>
       </body>
     </html>
   );

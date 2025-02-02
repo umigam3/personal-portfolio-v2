@@ -24,14 +24,14 @@ export default function Hero() {
           </motion.h1>
         </div>
         <div className="flex flex-col">
-          <div className="text-xl indent-[8rem] max-w-lg -mb-3 text-justify">
+          <div className="text-xl indent-[8rem] max-w-lg text-justify">
             {" "}
             Hello! I&apos;m Gerard Doncel, a Computer Engineer with over 2 years
             of experience in developing web applications and with solid skills
             in PHP and JavaScript, I am dedicated to delivering exceptional user
             experiences through clean, efficient, and innovative solutions.
           </div>
-          <div className="flex justify-end mb-4">
+          <div className="flex justify-end mb-6">
             <Button href="#contanct" label="Contact me" />
           </div>
         </div>
