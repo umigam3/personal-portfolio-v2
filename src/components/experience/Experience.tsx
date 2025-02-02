@@ -33,31 +33,31 @@ export default function Experience() {
           side="left"
         >
           <div className="flex flex-wrap justify-start md:justify-end">
-            <Badge color="red" skill="Laravel">
+            <Badge color="bg-red-500/30" skill="Laravel">
               <Laravel />
             </Badge>
-            <Badge color="indigo" skill="PHP">
+            <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
-            <Badge color="pink" skill="Livewire">
+            <Badge color="bg-pink-500/30" skill="Livewire">
               <Livewire />
             </Badge>
-            <Badge color="cyan" skill="AlpineJS">
+            <Badge color="bg-cyan-500/30" skill="AlpineJS">
               <Alpine />
             </Badge>
-            <Badge color="yellow" skill="JavaScript">
+            <Badge color="bg-yellow-500/30" skill="JavaScript">
               <JavaScript />
             </Badge>
-            <Badge color="orange" skill="HTML">
+            <Badge color="bg-orange-500/30" skill="HTML">
               <Html className="w-3 h-4" />
             </Badge>
-            <Badge color="sky" skill="Tailwind">
+            <Badge color="bg-sky-500/30" skill="Tailwind">
               <Tailwind />
             </Badge>
-            <Badge color="slate" skill="MySQL">
+            <Badge color="bg-slate-500/30" skill="MySQL">
               <Sql />
             </Badge>
-            <Badge color="amber" skill="Git">
+            <Badge color="bg-amber-500/30" skill="Git">
               <Git />
             </Badge>
           </div>
@@ -70,22 +70,22 @@ export default function Experience() {
           side="right"
         >
           <div className="flex flex-wrap justify-start md:justify-end">
-            <Badge color="indigo" skill="PHP">
+            <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
-            <Badge color="yellow" skill="JavaScript">
+            <Badge color="bg-yellow-500/30" skill="JavaScript">
               <JavaScript />
             </Badge>
-            <Badge color="orange" skill="HTML">
+            <Badge color="bg-orange-500/30" skill="HTML">
               <Html className="w-3 h-4" />
             </Badge>
-            <Badge color="sky" skill="Bootstrap">
+            <Badge color="bg-sky-500/30" skill="Bootstrap">
               <Bootstrap className="w-3 h-4" />
             </Badge>
-            <Badge color="slate" skill="MySQL">
+            <Badge color="bg-slate-500/30" skill="MySQL">
               <Sql />
             </Badge>
-            <Badge color="amber" skill="Git">
+            <Badge color="bg-amber-500/30" skill="Git">
               <Git />
             </Badge>
           </div>
@@ -98,28 +98,28 @@ export default function Experience() {
           side="left"
         >
           <div className="flex flex-wrap justify-start md:justify-end">
-            <Badge color="indigo" skill="PHP">
+            <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
-            <Badge color="red" skill="Angular">
+            <Badge color="bg-red-500/30" skill="Angular">
               <Angular />
             </Badge>
-            <Badge color="yellow" skill="TypeScript">
+            <Badge color="bg-yellow-500/30" skill="TypeScript">
               <TypeScript />
             </Badge>
-            <Badge color="slate" skill="WordPress">
+            <Badge color="bg-slate-500/30" skill="WordPress">
               <WordPress />
             </Badge>
-            <Badge color="orange" skill="HTML">
+            <Badge color="bg-orange-500/30" skill="HTML">
               <Html />
             </Badge>
-            <Badge color="sky" skill="CSS">
+            <Badge color="bg-sky-500/30" skill="CSS">
               <Css />
             </Badge>
-            <Badge color="slate" skill="MySQL">
+            <Badge color="bg-slate-500/30" skill="MySQL">
               <Sql />
             </Badge>
-            <Badge color="amber" skill="Git">
+            <Badge color="bg-amber-500/30" skill="Git">
               <Git />
             </Badge>
           </div>
