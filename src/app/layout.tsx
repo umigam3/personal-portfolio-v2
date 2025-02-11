@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "@styles/globals.css";
 import "@fontsource-variable/onest";
 import Header from "@components/Header";
-import Head from "next/head";
 import Cursor from "@components/Cursor";
 import SmoothScrolling from "@providers/SmoothScrolling";
 
