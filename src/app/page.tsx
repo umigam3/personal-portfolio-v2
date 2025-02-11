@@ -3,6 +3,7 @@
 import Experience from "@components/experience/Experience";
 import About from "@components/about/About";
 import Hero from "@components/hero/Hero";
+import Projects from "@components/projects/Projects";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Experience />
+      <Projects />
     </main>
   );
 }
