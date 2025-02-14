@@ -39,3 +39,12 @@ html {
     -webkit-text-stroke: 4px #a587e6;
   }
 }
+
+.project {
+  clip-path: inset(50% 0 50%);
+  transition: clip-path 0.4s;
+}
+
+.relative:hover .project {
+  clip-path: inset(0 0 0);
+}
