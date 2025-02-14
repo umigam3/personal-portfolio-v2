@@ -6,7 +6,7 @@ import Cursor from "@components/Cursor";
 import SmoothScrolling from "@providers/SmoothScrolling";
 
 export const metadata: Metadata = {
-  title: "Gerard Doncel",
+  title: "Gerard Doncel - FullStack Developer",
   description: "Personal portfolio",
 };
 

@@ -7,14 +7,16 @@ export default function Experience() {
     <section id="projects" className="mb-20 w-full">
       <Title label="Projects" />
       <div className="flex flex-col">
-        <div className="project flex items-center justify-between w-full cursor-pointer group-hover:[clip-path:inset(0_0_0)]">
-          <span className="text-[256px] font-delirium z-10">POKEDEX</span>
+        <div className="project flex items-center justify-between w-full cursor-pointer">
+          <span className="leading-[256px] title text-[256px] font-delirium z-10">
+            POKEDEX
+          </span>
           <span className="description">
             A pokemon application using react and consusuming the pokeapi.co API
           </span>
         </div>
-        <div className="project flex items-center justify-between w-full cursor-pointer group-hover:[clip-path:inset(0_0_0)]">
-          <span className="text-[256px] text-7xl font-delirium">
+        <div className="project flex items-center justify-between w-full cursor-pointer">
+          <span className="leading-[256px] title text-[256px] text-7xl font-delirium">
             UNIX SCRIPTS
           </span>
           <span className="description">
