@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section id="hero" className="w-full h-[calc(100vh-60px)] mb-24">
-      <div className="flex items-end justify-between h-full">
+    <section id="hero" className="w-full h-[calc(100vh-60px)] mb-24 px-6">
+      <div className="flex items-end justify-between h-full relative">
         <div className="font-delirium select-none">
           <motion.h1
             initial={{ y: 100, opacity: 0 }}

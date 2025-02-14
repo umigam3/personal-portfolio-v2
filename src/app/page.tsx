@@ -11,7 +11,7 @@ export default function Home() {
     window.scrollTo(0, 0); // Mueve el scroll al inicio
   }, []);
   return (
-    <main className="w-full mx-auto px-6">
+    <main className="w-full mx-auto">
       <Hero />
       <About />
       <Experience />
