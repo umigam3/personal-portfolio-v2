@@ -2,14 +2,14 @@ import Title from "@components/ui/Title";
 
 export default function Experience() {
   return (
-    <section id="aboutme" className="mb-20 max-w-[1560px] mx-auto w-full">
+    <section id="aboutme" className="mb-20 max-w-7xl mx-auto w-full">
       <Title label="About me" />
       <div className="flex justify-between gap-10">
         <div className="w-1/2 text-2xl">
           <p className="mb-4">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever since the 1500s.
           </p>
           <p className="mb-4">
             When an unknown printer took a galley of type and scrambled it to
