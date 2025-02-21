@@ -5,6 +5,7 @@ import About from "@components/about/About";
 import Hero from "@components/hero/Hero";
 import Projects from "@components/projects/Projects";
 import { useEffect } from "react";
+import Contact from "@components/contact/Contact";
 
 export default function Home() {
   useEffect(() => {
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
     </main>
   );
 }

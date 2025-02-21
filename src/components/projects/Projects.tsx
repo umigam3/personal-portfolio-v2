@@ -1,10 +1,6 @@
-import Bash from "@components/icons/Bash";
-import JavaScript from "@components/icons/JavaScript";
-import Linux from "@components/icons/Linux";
-import React from "@components/icons/React";
 import Title from "@components/ui/Title";
 
-export default function Experience() {
+export default function Projects() {
   return (
     <section id="projects" className="mb-20 w-full">
       <Title label="Projects" />
