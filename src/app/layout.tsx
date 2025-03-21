@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="text-white">
+    <html lang="en" className="dark">
+      <body>
         <SmoothScrolling>
           <Cursor />
           <Header />
