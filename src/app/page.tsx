@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <main className="w-full mx-auto">
       <Hero />
-      {/* <About />
+      <About />
       <Experience />
       <Projects />
-      <Contact /> */}
+      <Contact />
     </main>
   );
 }
