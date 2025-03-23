@@ -9,15 +9,15 @@ import Contact from "@components/contact/Contact";
 
 export default function Home() {
   useEffect(() => {
-    window.scrollTo(0, 0); // Mueve el scroll al inicio
+    window.scrollTo(0, 0);
   }, []);
   return (
     <main className="w-full mx-auto">
       <Hero />
-      <About />
+      {/* <About />
       <Experience />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </main>
   );
 }
