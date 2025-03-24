@@ -27,6 +27,7 @@ html {
   font-family: "Onest Variable", sans-serif;
   scroll-padding-top: 100px;
   background-color: #0e0b25;
+  scroll-behavior: smooth;
   color-scheme: dark;
 }
 

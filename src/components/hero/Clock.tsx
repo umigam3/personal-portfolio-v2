@@ -21,7 +21,7 @@ export const Clock = ({ time: initial }: Props) => {
   }, []);
 
   return (
-    <div className="font-delirium text-7xl tabular-nums">
+    <div className="tabular-nums mt-2">
       <Time time={time} />
     </div>
   );
