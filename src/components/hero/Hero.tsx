@@ -8,14 +8,14 @@ export default function Hero() {
       id="hero"
       className="max-w-5xl mx-auto h-[calc(100vh-60px)] mb-24 px-6 flex items-center justify-center"
     >
-      <div className="flex flex-col gap-4 w-full items-start relative">
+      <div className="flex flex-col gap-7 w-full items-start relative">
         <img src="/text/FULLSTACK.svg" alt="Full Stack" className="w-full" />
-        <div className="flex justify-between items-center w-full gap-6">
-          <img src="/text/DEVELOPER.svg" alt="Full Stack" className="w-3/4" />
-          <div className="flex flex-col items-center gap-2 w-1/4 h-full">
-            <div className="p-5 bg-white/20 flex flex-col items-center rounded-tr-3xl rounded-tl-3xl w-full h-full gap-3">
-              <Clock time={now.getTime()} />
-              <div className="flex items-center gap-2">
+        <div className="flex justify-between w-full gap-6">
+          <img src="/text/DEVELOPER.svg" alt="Full Stack" className="w-[74%]" />
+          <div className="flex flex-col gap-2 w-[30%] h-full justify-around">
+            <div className="flex items-center justify-between">
+              <div className="opacity-50 font-semibold text-xl">LOCAL TIME</div>
+              <div className="flex gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -23,22 +23,25 @@ export default function Hero() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="lucide lucide-map-pin"
                 >
                   <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                <span className="text-xl">Barcelona, Spain</span>
+                <span className="text-xl">BCN</span>
               </div>
+            </div>
+            <div className="flex justify-center w-full">
+              <Clock time={now.getTime()} />
             </div>
             <a
               href="#projects"
-              className="bg-primary rounded-br-3xl rounded-bl-3xl w-full flex items-center justify-center py-4 hover:cursor-pointer hover:contrast-200"
+              className="bg-primary w-full flex items-center justify-center py-2 rounded-xl hover:cursor-pointer hover:contrast-200"
             >
-              <div className="text-3xl font-semibold">Contact me</div>
+              <div className="text-3xl font-semibold">Get in touch</div>
             </a>
           </div>
         </div>
