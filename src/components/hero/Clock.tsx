@@ -21,7 +21,7 @@ export const Clock = ({ time: initial }: Props) => {
   }, []);
 
   return (
-    <div className="mt-4">
+    <div>
       <Time time={time} />
     </div>
   );

@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 export default function Header() {
   return (
     <motion.header
-      className="sticky top-0 z-20 h-24"
+      className="sticky top-0 z-20 h-20 px-14"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }}
     >
       <div className="flex h-full px-8 justify-between items-center">
-        <img src="/signature.png" alt="Gerard Doncel" className="w-24" />
+        <img src="/signature.png" alt="Gerard Doncel" className="w-20" />
         <div className="flex items-center gap-10">
           <nav className="flex justify-end items-center gap-x-10">
             <a href="#experience">Experience</a>

@@ -7,17 +7,11 @@ export default function Hero() {
 
   return (
     <section id="hero" className="h-[calc(100vh-96px)] px-8 mb-20">
-      <div className="flex items-center justify-between h-[80%]">
-        <span className="w-fit rotate-90 -ml-5">SCROLL</span>
-        <div className="flex flex-col items-center justify-center flex-grow">
-          <h1 className="text-[172px] font-semibold leading-none">
-            Full Stack
-          </h1>
-          <h2 className="text-[132px] leading-none font-semibold bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
-            Developer.
-          </h2>
-        </div>
-        <span className="w-fit -mr-5 rotate-90">SCROLL</span>
+      <div className="flex flex-col items-center justify-center h-[80%]">
+        <h1 className="text-[168px] font-semibold leading-none">Full Stack</h1>
+        <h2 className="text-[124px] leading-none font-semibold bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
+          Developer.
+        </h2>
       </div>
       <div className="flex justify-between">
         <div className="flex flex-col gap-4 w-[400px]">
@@ -45,13 +39,9 @@ export default function Hero() {
             </svg>
           </div>
         </div>
-        <div className="flex gap-4 items-end">
-          <a className="bg-[#191919] p-4 rounded-full cursor-pointer hover:bg-primary duration-200">
-            <GitHub className="w-5 h-5" />
-          </a>
-          <a className="bg-[#191919] p-4 rounded-full cursor-pointer hover:bg-primary duration-200">
-            <LinkedIn className="w-5 h-5" />
-          </a>
+        <div className="flex flex-col items-end justify-end">
+          <span className="opacity-50">LOCAL TIME</span>
+          <Clock time={now.getTime()} />
         </div>
       </div>
     </section>
