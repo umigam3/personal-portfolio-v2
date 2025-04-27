@@ -1,6 +1,4 @@
-import LinkedIn from "@components/icons/LinkedIn";
 import { Clock } from "./Clock";
-import GitHub from "@components/icons/GitHub";
 
 export default function Hero() {
   const now = new Date();
@@ -17,8 +15,8 @@ export default function Hero() {
         <div className="flex flex-col gap-4 w-[400px]">
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever since the 1500s.
           </p>
           <div className="flex gap-2 items-center">
             <span>Learn more</span>
