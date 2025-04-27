@@ -14,7 +14,7 @@ export default function Projects() {
                 </span>
               </div>
             </div>
-            <div className="project w-full bg-secondary text-black absolute top-0 z-10 border-t border-secondary">
+            <div className="project w-full bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] text-black absolute top-0 z-10 border-t border-secondary">
               <div className="flex justify-between max-w-7xl mx-auto">
                 <span className="pt-3 leading-[256px] title text-[256px] font-delirium z-10 w-2/3">
                   POKEDEX
@@ -41,7 +41,7 @@ export default function Projects() {
                 </span>
               </div>
             </div>
-            <div className="project w-full bg-secondary text-black absolute top-0 z-10 border-t border-secondary">
+            <div className="project w-full bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] text-black absolute top-0 z-10 border-t border-secondary">
               <div className="flex justify-between max-w-7xl mx-auto">
                 <span className="pt-3 leading-[256px] title text-[256px] font-delirium z-10 w-2/3">
                   UNIX SCRIPTS

@@ -2,7 +2,7 @@ import Title from "@components/ui/Title";
 
 export default function Experience() {
   return (
-    <section id="aboutme" className="mb-20 max-w-7xl mx-auto w-full">
+    <section id="aboutme" className="mb-20 max-w-7xl mx-auto w-full px-20">
       <Title label="About me" />
       <div className="flex justify-between gap-10">
         <div className="w-1/2 text-2xl">

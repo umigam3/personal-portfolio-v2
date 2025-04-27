@@ -10,6 +10,7 @@ export default {
     extend: {
       fontFamily: {
         delirium: ["Delirium", "sans-serif"],
+        roboto: ["Roboto Condensed", "sans-serif"],
       },
       colors: {
         primary: "#A587E6",

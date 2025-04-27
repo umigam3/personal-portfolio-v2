@@ -4,7 +4,7 @@ type Props = {
 
 const Time = ({ time }: Props) => {
   return (
-    <span className="text-7xl leading-none tabular-nums font-delirium">
+    <span className="text-[96px] leading-none tabular-nums font-delirium uppercase">
       {time
         .toLocaleTimeString(undefined, {
           hour: "2-digit",

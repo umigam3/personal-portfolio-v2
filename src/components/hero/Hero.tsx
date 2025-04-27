@@ -6,7 +6,7 @@ export default function Hero() {
   const now = new Date();
 
   return (
-    <section id="hero" className="h-[calc(100vh-96px)] px-8 mb-20">
+    <section id="hero" className="h-[calc(100vh-96px)] px-20 mb-20">
       <div className="flex flex-col items-center justify-center h-[80%]">
         <h1 className="text-[168px] font-semibold leading-none">Full Stack</h1>
         <h2 className="text-[124px] leading-none font-semibold bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex flex-col items-end justify-end">
-          <span className="opacity-50">LOCAL TIME</span>
+          <span className="opacity-50 font-semibold text-2xl">LOCAL TIME</span>
           <Clock time={now.getTime()} />
         </div>
       </div>

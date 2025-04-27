@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@styles/globals.css";
 import "@fontsource-variable/onest";
+import "@fontsource-variable/roboto-condensed";
 import Header from "@components/Header";
 import Cursor from "@components/Cursor";
 import SmoothScrolling from "@providers/SmoothScrolling";
@@ -21,7 +22,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body>
         <SmoothScrolling>
-          <div className="flex flex-col gap-4 items-end fixed left-4 top-1/2 -translate-y-1/2">
+          <div className="flex flex-col gap-4 items-end fixed left-4 top-1/2 -translate-y-1/2 z-50">
             <a className="bg-[#191919] p-4 rounded-full cursor-pointer hover:bg-primary duration-200">
               <GitHub className="w-5 h-5" />
             </a>

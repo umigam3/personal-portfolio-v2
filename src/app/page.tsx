@@ -12,7 +12,7 @@ export default function Home() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <main className="w-full mx-auto px-14">
+    <main className="w-full mx-auto">
       <Hero />
       <About />
       <Experience />
