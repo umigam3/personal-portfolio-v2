@@ -4,21 +4,29 @@ export default function Hero() {
   const now = new Date();
 
   return (
-    <section id="hero" className="h-[calc(100vh-96px)] px-[5.5rem] mb-20">
-      <div className="flex flex-col items-center justify-center h-[80%]">
-        <h1 className="text-[142px] font-semibold leading-none">Full Stack</h1>
-        <h2 className="text-[96px] leading-none font-medium bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
+    <section
+      id="hero"
+      className="h-[calc(100vh-96px)] p-8 md:px-[5.5rem] mb-16 flex flex-col md:gap-0 md:justify-between"
+    >
+      <div className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]">
+        <h1 className="text-6xl sm:text-[96px] lg:text-[142px] xl:text-[212px] font-semibold leading-none whitespace-nowrap">
+          Full Stack
+        </h1>
+        <h2 className="text-4xl sm:text-[68px] lg:text-[112px] xl:text-[168px] font-medium leading-none bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
           Developer.
         </h2>
       </div>
-      <div className="flex justify-between">
-        <div className="flex flex-col gap-4 w-[400px]">
+      <div className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full">
+        <div className="flex flex-col gap-4 sm:w-96 lg:w-[400px]">
           <p className="text-lg">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s.
+            With over 2 years of experience crafting web applications with PHP,
+            I’m dedicated to building{" "}
+            <span className="font-semibold text-primary whitespace-nowrap">
+              high-quality
+            </span>{" "}
+            and efficient solutions.
           </p>
-          <div className="flex gap-2 items-center">
+          <a href="#aboutme" className="flex gap-2 items-center">
             <span>More about me</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +43,7 @@ export default function Hero() {
               <path d="M18 8L22 12L18 16" />
               <path d="M2 12H22" />
             </svg>
-          </div>
+          </a>
         </div>
         <div className="flex flex-col items-end justify-end">
           <span className="opacity-50 font-semibold text-xl mb-10">

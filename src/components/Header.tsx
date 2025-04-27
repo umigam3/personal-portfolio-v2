@@ -12,8 +12,10 @@ export default function Header() {
       animate={{ y: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }}
     >
-      <div className="flex h-full px-[5.5rem] justify-between items-center relative">
-        <img src="/signature.png" alt="Gerard Doncel" className="w-20" />
+      <div className="flex h-full px-8 md:px-[5.5rem] justify-between items-center relative">
+        <a href="#">
+          <img src="/signature.png" alt="Gerard Doncel" className="w-20" />
+        </a>
         <div className="flex items-center gap-10">
           <nav className="flex justify-end items-center gap-x-10">
             <a href="#experience">Experience</a>
