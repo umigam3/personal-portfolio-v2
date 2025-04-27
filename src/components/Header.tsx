@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useScroll } from "framer-motion";
+import Hamburger from "@components/icons/Hamburger";
 
 export default function Header() {
   const { scrollYProgress } = useScroll();
@@ -16,7 +17,7 @@ export default function Header() {
         <a href="#">
           <img src="/signature.png" alt="Gerard Doncel" className="w-20" />
         </a>
-        <div className="flex items-center gap-10">
+        <div className="hidden md:flex items-center gap-10">
           <nav className="flex justify-end items-center gap-x-10">
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
@@ -29,6 +30,9 @@ export default function Header() {
             Get in touch
           </a>
         </div>
+        <a className="md:hidden">
+          <Hamburger className="w-8 h-8" />
+        </a>
 
         <motion.div
           className="absolute bottom-0 left-0 h-0.5 w-full bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] transform-gpu"

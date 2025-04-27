@@ -10,10 +10,10 @@ export default function Hero() {
       className="h-[calc(100svh-96px)] px-8 py-4 md:px-[5.5rem] mb-16 flex flex-col gap-6 md:gap-0 md:justify-between"
     >
       <div className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]">
-        <h1 className="text-6xl sm:text-[96px] lg:text-[142px] xl:text-[212px] font-semibold leading-none whitespace-nowrap">
+        <h1 className="text-6xl sm:text-[96px] lg:text-[142px] font-semibold leading-none whitespace-nowrap">
           Full Stack
         </h1>
-        <h2 className="text-4xl sm:text-[68px] lg:text-[112px] xl:text-[168px] font-medium leading-none bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
+        <h2 className="text-4xl sm:text-[68px] lg:text-[112px] font-medium leading-none bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
           Developer.
         </h2>
       </div>
