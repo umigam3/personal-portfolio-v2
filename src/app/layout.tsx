@@ -5,9 +5,7 @@ import "@fontsource-variable/roboto-condensed";
 import Header from "@components/Header";
 import Cursor from "@components/Cursor";
 import SmoothScrolling from "@providers/SmoothScrolling";
-import LinkedIn from "@components/icons/LinkedIn";
-import GitHub from "@components/icons/GitHub";
-import Socials from "@components/Socials";
+import SocialsDesktop from "@components/SocialsDesktop";
 
 export const metadata: Metadata = {
   title: "Gerard Doncel - FullStack Developer",
@@ -23,7 +21,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body>
         <SmoothScrolling>
-          <Socials />
+          <SocialsDesktop />
           <Cursor />
           <Header />
           {children}
