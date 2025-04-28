@@ -1,6 +1,6 @@
 import type { IconProps } from "@interfaces/IconProps";
 
-export default function Alpine({ className, size = 16 }: IconProps) {
+export default function Hamburger({ className, size = 16 }: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

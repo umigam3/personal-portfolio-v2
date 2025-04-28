@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="h-[calc(100svh-96px)] px-8 py-4 md:px-[5.5rem] mb-16 flex flex-col gap-6 md:gap-0 md:justify-between"
+      className="h-[calc(100svh-96px)] px-8 py-4 md:px-[5.5rem] mb-16 md:mb-24 flex flex-col gap-6 md:gap-0 md:justify-between"
     >
       <div className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]">
         <h1 className="text-6xl sm:text-[96px] lg:text-[142px] font-semibold leading-none whitespace-nowrap">
@@ -28,7 +28,7 @@ export default function Hero() {
               </span>{" "}
               and efficient solutions.
             </p>
-            <a href="#aboutme" className="flex gap-2 items-center">
+            <a href="#aboutme" className="flex gap-3 items-center group w-fit">
               <span>More about me</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +37,10 @@ export default function Hero() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth="1"
+                strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-move-right-icon lucide-move-right"
+                className="lucide lucide-move-right-icon lucide-move-right group-hover:translate-x-1 duration-300"
               >
                 <path d="M18 8L22 12L18 16" />
                 <path d="M2 12H22" />
