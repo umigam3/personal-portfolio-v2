@@ -7,7 +7,6 @@ import React from "@components/icons/React";
 import Sql from "@components/icons/Sql";
 import Tailwind from "@components/icons/Tailwind";
 import TypeScript from "@components/icons/TypeScript";
-import VisualStudioCode from "@components/icons/VisualStudioCode";
 import Title from "@components/ui/Title";
 
 export default function Experience() {
