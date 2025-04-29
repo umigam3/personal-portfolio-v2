@@ -11,10 +11,13 @@ import Title from "@components/ui/Title";
 
 export default function Experience() {
   return (
-    <section id="aboutme" className="mb-20 w-full max-w-7xl mx-auto px-8">
+    <section
+      id="aboutme"
+      className="mb-20 w-full max-w-7xl mx-auto px-8 md:px-[5.5rem]"
+    >
       <Title label="About me" />
-      <div className="flex flex-col lg:flex-row justify-between items-center gap-8 md:gap-24">
-        <div className="md:w-1/2 text-xl">
+      <div className="flex flex-col xl:flex-row justify-between items-center gap-8 md:gap-24">
+        <div className="xl:w-1/2 w-full text-xl">
           <p className="mb-4">
             Computer Engineer with more than{" "}
             <span className="text-primary font-semibold">
@@ -38,7 +41,7 @@ export default function Experience() {
             e-learning industry.
           </p>
         </div>
-        <div className="md:w-1/2 h-full">
+        <div className="xl:w-1/2 w-full h-full">
           <div className="grid grid-cols-3 gap-5 rounded-3xl">
             <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
               <Laravel className="w-10 h-10" />
