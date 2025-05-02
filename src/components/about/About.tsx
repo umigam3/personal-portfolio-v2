@@ -17,7 +17,7 @@ export default function About() {
     >
       <Title label="About me" />
       <div className="flex flex-col xl:flex-row justify-between gap-8 md:gap-24">
-        <div className="xl:w-1/2 w-full text-xl">
+        <div className="xl:w-1/2 w-full md:text-xl">
           <p className="mb-4">
             Computer Engineer with more than{" "}
             <span className="text-primary font-semibold">

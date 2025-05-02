@@ -1,5 +1,4 @@
 import Laravel from "@components/icons/Laravel";
-import Html from "@components/icons/Html";
 import JavaScript from "@components/icons/JavaScript";
 import Sql from "@components/icons/Sql";
 import Git from "@components/icons/Git";
@@ -26,7 +25,7 @@ export default function Experience() {
     >
       <Title label="Experience" />
       <div className="relative h-full">
-        <div className="absolute ml-2 lg:ml-0 left-0 top-4 lg:left-1/2 w-[2px] bg-secondary transform -translate-x-1/2 h-full"></div>
+        <div className="hidden lg:block absolute ml-2 lg:ml-0 left-0 top-4 lg:left-1/2 w-[2px] bg-secondary transform -translate-x-1/2 h-full"></div>
 
         <ExperienceCard
           date="Oct 2024 - Present"
@@ -35,7 +34,7 @@ export default function Experience() {
           description="Working with a development team to enhance the main platform, including integrating and refining APIs and endpoints, while also managing a dashboard that allows for a variety of actions."
           side="left"
         >
-          <div className="flex flex-wrap justify-start lg:justify-end">
+          <div className="flex lg:flex-wrap flex-nowrap overflow-x-auto px-1 justify-start lg:justify-end scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_5px,_black_calc(100%-5px),transparent_100%)]">
             <Badge color="bg-red-500/30" skill="Laravel">
               <Laravel />
             </Badge>
@@ -66,7 +65,7 @@ export default function Experience() {
           description="Developing quality Moodle plugins and integrations. Utilizing technologies to enhance the Moodle e-learning experience. Collaborating with clients, I analyze requirements to craft optimal solutions and ensure smooth integration."
           side="right"
         >
-          <div className="flex flex-wrap justify-start">
+          <div className="flex lg:flex-wrap flex-nowrap overflow-x-auto px-1 justify-start scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_5px,_black_calc(100%-5px),transparent_100%)]">
             <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
@@ -91,7 +90,7 @@ export default function Experience() {
           description="Fixing general bugs of their web application. (4DMOVIN) Development of small tools to imporve web utility. Building WordPress sites, including landing pages, working with woo-commerce."
           side="left"
         >
-          <div className="flex flex-wrap justify-start lg:justify-end">
+          <div className="flex lg:flex-wrap flex-nowrap overflow-x-auto px-1 justify-start lg:justify-end scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_5px,_black_calc(100%-5px),transparent_100%)]">
             <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
