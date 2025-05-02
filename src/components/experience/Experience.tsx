@@ -22,11 +22,11 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="mb-20 max-w-[1680px] mx-auto w-full px-8 md:px-[5.5rem]"
+      className="mb-20 max-w-[1520px] mx-auto w-full px-8 md:px-[5.5rem]"
     >
       <Title label="Experience" />
       <div className="relative h-full">
-        <div className="absolute ml-2 md:ml-0 left-0 top-4 md:left-1/2 w-[2px] bg-secondary transform -translate-x-1/2 h-full"></div>
+        <div className="absolute ml-2 lg:ml-0 left-0 top-4 lg:left-1/2 w-[2px] bg-secondary transform -translate-x-1/2 h-full"></div>
 
         <ExperienceCard
           date="Oct 2024 - Present"
@@ -35,12 +35,9 @@ export default function Experience() {
           description="Working with a development team to enhance the main platform, including integrating and refining APIs and endpoints, while also managing a dashboard that allows for a variety of actions."
           side="left"
         >
-          <div className="flex flex-wrap justify-start md:justify-end">
+          <div className="flex flex-wrap justify-start lg:justify-end">
             <Badge color="bg-red-500/30" skill="Laravel">
               <Laravel />
-            </Badge>
-            <Badge color="bg-indigo-500/30" skill="PHP">
-              <Php />
             </Badge>
             <Badge color="bg-pink-500/30" skill="Livewire">
               <Livewire />
@@ -50,9 +47,6 @@ export default function Experience() {
             </Badge>
             <Badge color="bg-yellow-500/30" skill="JavaScript">
               <JavaScript />
-            </Badge>
-            <Badge color="bg-orange-500/30" skill="HTML">
-              <Html className="w-3 h-4" />
             </Badge>
             <Badge color="bg-sky-500/30" skill="Tailwind">
               <Tailwind />
@@ -72,17 +66,14 @@ export default function Experience() {
           description="Developing quality Moodle plugins and integrations. Utilizing technologies to enhance the Moodle e-learning experience. Collaborating with clients, I analyze requirements to craft optimal solutions and ensure smooth integration."
           side="right"
         >
-          <div className="flex flex-wrap justify-start md:justify-end">
+          <div className="flex flex-wrap justify-start">
             <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
             <Badge color="bg-yellow-500/30" skill="JavaScript">
               <JavaScript />
             </Badge>
-            <Badge color="bg-orange-500/30" skill="HTML">
-              <Html className="w-3 h-4" />
-            </Badge>
-            <Badge color="bg-sky-500/30" skill="Bootstrap">
+            <Badge color="bg-indigo-500/30" skill="Bootstrap">
               <Bootstrap className="w-3 h-4" />
             </Badge>
             <Badge color="bg-slate-500/30" skill="MySQL">
@@ -100,21 +91,18 @@ export default function Experience() {
           description="Fixing general bugs of their web application. (4DMOVIN) Development of small tools to imporve web utility. Building WordPress sites, including landing pages, working with woo-commerce."
           side="left"
         >
-          <div className="flex flex-wrap justify-start md:justify-end">
+          <div className="flex flex-wrap justify-start lg:justify-end">
             <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
             <Badge color="bg-red-500/30" skill="Angular">
               <Angular />
             </Badge>
-            <Badge color="bg-yellow-500/30" skill="TypeScript">
+            <Badge color="bg-blue-500/30" skill="TypeScript">
               <TypeScript />
             </Badge>
             <Badge color="bg-slate-500/30" skill="WordPress">
               <WordPress />
-            </Badge>
-            <Badge color="bg-orange-500/30" skill="HTML">
-              <Html />
             </Badge>
             <Badge color="bg-sky-500/30" skill="CSS">
               <Css />

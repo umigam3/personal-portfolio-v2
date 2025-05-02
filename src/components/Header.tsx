@@ -19,9 +19,9 @@ export default function Header() {
         </a>
         <div className="hidden md:flex items-center gap-10">
           <nav className="flex justify-end items-center gap-x-10">
+            <a href="#aboutme">About</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
-            <a href="#aboutme">About</a>
           </nav>
           <a
             href="#contact"

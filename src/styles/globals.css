@@ -25,7 +25,7 @@ textarea:-webkit-autofill:focus {
 
 html {
   font-family: "Onest Variable", sans-serif;
-  scroll-padding-top: 100px;
+  scroll-padding-top: 120px;
   background-color: #0e0b25;
   scroll-behavior: smooth;
   color-scheme: dark;
