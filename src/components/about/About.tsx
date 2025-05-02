@@ -9,14 +9,14 @@ import Tailwind from "@components/icons/Tailwind";
 import TypeScript from "@components/icons/TypeScript";
 import Title from "@components/ui/Title";
 
-export default function Experience() {
+export default function About() {
   return (
     <section
       id="aboutme"
-      className="mb-20 w-full max-w-7xl mx-auto px-8 md:px-[5.5rem]"
+      className="mb-20 w-full max-w-[1680px] mx-auto px-8 md:px-[5.5rem]"
     >
       <Title label="About me" />
-      <div className="flex flex-col xl:flex-row justify-between items-center gap-8 md:gap-24">
+      <div className="flex flex-col xl:flex-row justify-between gap-8 md:gap-24">
         <div className="xl:w-1/2 w-full text-xl">
           <p className="mb-4">
             Computer Engineer with more than{" "}
@@ -41,7 +41,7 @@ export default function Experience() {
             e-learning industry.
           </p>
         </div>
-        <div className="xl:w-1/2 w-full h-full">
+        {/* <div className="xl:w-1/2 w-full h-full">
           <div className="grid grid-cols-3 gap-5 rounded-3xl">
             <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
               <Laravel className="w-10 h-10" />
@@ -79,8 +79,8 @@ export default function Experience() {
               <Git className="w-10 h-10" />
               <span>Git</span>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
       </div>
     </section>
   );

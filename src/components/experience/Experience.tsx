@@ -20,7 +20,10 @@ import Title from "@components/ui/Title";
 
 export default function Experience() {
   return (
-    <section id="experience" className="mb-20 max-w-7xl mx-auto w-full">
+    <section
+      id="experience"
+      className="mb-20 max-w-[1680px] mx-auto w-full px-8 md:px-[5.5rem]"
+    >
       <Title label="Experience" />
       <div className="relative h-full">
         <div className="absolute ml-2 md:ml-0 left-0 top-4 md:left-1/2 w-[2px] bg-secondary transform -translate-x-1/2 h-full"></div>
