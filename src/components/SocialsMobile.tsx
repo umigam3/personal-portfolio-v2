@@ -10,7 +10,7 @@ export default function Socials() {
         href="https://github.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-[#191919] p-4 rounded-full cursor-pointer hover:bg-primary duration-200"
+        className="bg-[#191919] p-4 rounded-full cursor-pointer"
       >
         <GitHub className="w-5 h-5" />
       </a>
@@ -18,7 +18,7 @@ export default function Socials() {
         href="https://linkedin.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-[#191919] p-4 rounded-full cursor-pointer hover:bg-primary duration-200"
+        className="bg-[#191919] p-4 rounded-full cursor-pointer"
       >
         <LinkedIn className="w-5 h-5" />
       </a>

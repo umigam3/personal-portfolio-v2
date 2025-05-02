@@ -25,7 +25,7 @@ export default function Experience() {
     >
       <Title label="Experience" />
       <div className="relative h-full">
-        <div className="hidden lg:block absolute ml-2 lg:ml-0 left-0 top-4 lg:left-1/2 w-[2px] bg-secondary transform -translate-x-1/2 h-full"></div>
+        <div className="hidden lg:block absolute ml-2 lg:ml-0 left-0 top-4 lg:left-1/2 w-[2px] bg-[#F47B2A] transform -translate-x-1/2 h-full"></div>
 
         <ExperienceCard
           date="Oct 2024 - Present"
