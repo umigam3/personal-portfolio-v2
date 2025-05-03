@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         delirium: ["Delirium", "sans-serif"],
         roboto: ["Roboto Condensed", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         primary: "#A587E6",

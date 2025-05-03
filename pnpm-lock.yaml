@@ -14,6 +14,9 @@ importers:
       '@fontsource-variable/roboto-condensed':
         specifier: ^5.2.5
         version: 5.2.5
+      '@fontsource/poppins':
+        specifier: ^5.2.5
+        version: 5.2.5
       cobe:
         specifier: ^0.6.3
         version: 0.6.3
@@ -122,6 +125,9 @@ packages:
 
   '@fontsource-variable/roboto-condensed@5.2.5':
     resolution: {integrity: sha512-75X2PFfxaqcyuyiIfFGh6vIZtx8l562uoM2XzKN51Ol2XzaHH6QDPI2xWk6B1ziTiHy+Jp2dPYQZuZPxGCWAwA==}
+
+  '@fontsource/poppins@5.2.5':
+    resolution: {integrity: sha512-1S3k45pZOz2jqGPPqKw0in3uxFwnB+d5jSU8Tp9YwH/dIJptE3jdkQbYN0QD861GtuOpn6QhPW/yKt1w7hVRBQ==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1932,6 +1938,8 @@ snapshots:
   '@fontsource-variable/onest@5.2.7': {}
 
   '@fontsource-variable/roboto-condensed@5.2.5': {}
+
+  '@fontsource/poppins@5.2.5': {}
 
   '@humanfs/core@0.19.1': {}
 

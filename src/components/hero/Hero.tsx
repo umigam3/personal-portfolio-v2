@@ -11,7 +11,7 @@ export default function Hero() {
     >
       <div className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]">
         <h1 className="text-6xl sm:text-[96px] lg:text-[142px] font-semibold leading-none whitespace-nowrap">
-          Full Stack
+          Software
         </h1>
         <h2 className="text-4xl sm:text-[68px] lg:text-[112px] font-medium leading-none bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
           Developer.

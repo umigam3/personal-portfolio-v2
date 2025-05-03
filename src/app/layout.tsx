@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@styles/globals.css";
 import "@fontsource-variable/onest";
 import "@fontsource-variable/roboto-condensed";
+import "@fontsource/poppins";
 import Header from "@components/Header";
 import Cursor from "@components/Cursor";
 import SmoothScrolling from "@providers/SmoothScrolling";
