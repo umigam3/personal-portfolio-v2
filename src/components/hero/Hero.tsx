@@ -53,9 +53,9 @@ export default function Hero() {
           <img
             src="/gerard-centered.png"
             alt="Gerard Doncel"
-            className="w-14"
+            className="w-12 sm:w-14"
           />
-          <span className="opacity-50 font-semibold text-xl mb-8">
+          <span className="opacity-50 font-semibold text-lg sm:text-xl mb-5 sm:mb-8">
             LOCAL TIME
           </span>
           <Clock time={now.getTime()} />
