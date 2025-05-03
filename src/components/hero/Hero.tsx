@@ -49,13 +49,13 @@ export default function Hero() {
           </div>
           <SocialsMobile />
         </div>
-        <div className="flex flex-col items-end justify-end">
+        <div className="flex flex-col items-end justify-end gap-2">
           <img
             src="/gerard-centered.png"
             alt="Gerard Doncel"
-            className="w-14 mb-3"
+            className="w-14"
           />
-          <span className="opacity-50 font-semibold text-xl mb-10">
+          <span className="opacity-50 font-semibold text-xl mb-8">
             LOCAL TIME
           </span>
           <Clock time={now.getTime()} />

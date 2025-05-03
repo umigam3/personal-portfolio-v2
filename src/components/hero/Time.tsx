@@ -4,11 +4,12 @@ type Props = {
 
 const Time = ({ time }: Props) => {
   return (
-    <span className="text-[96px] leading-3 tabular-nums font-poppins uppercase -mb-6 tracking-tight font-semibold">
+    <span className="text-[96px] leading-3 tabular-nums font-delirium uppercase -mb-6">
       {time
         .toLocaleTimeString(undefined, {
           hour: "2-digit",
           minute: "2-digit",
+          hour12: true,
         })
         .replace(/\./g, "")}
     </span>
