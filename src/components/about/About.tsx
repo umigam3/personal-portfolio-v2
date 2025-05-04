@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section
       id="aboutme"
-      className="mb-20 w-full max-w-[1520px] mx-auto px-8 md:px-[5.5rem]"
+      className="mb-14 md:mb-20 w-full max-w-[1520px] mx-auto px-6 md:px-[5.5rem]"
     >
       <Title label="About me" />
       <div className="flex flex-col xl:flex-row justify-between gap-8 md:gap-24">
@@ -41,47 +41,7 @@ export default function About() {
             e-learning industry.
           </p>
         </div>
-        {/* <div className="xl:w-1/2 w-full h-full">
-          <div className="grid grid-cols-3 gap-5 rounded-3xl">
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <Laravel className="w-10 h-10" />
-              <span>Laravel</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <Livewire className="w-10 h-10" />
-              <span>Livewire</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <Alpine className="w-10 h-10" />
-              <span>Alpine</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <React className="w-10 h-10" />
-              <span>React</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <JavaScript className="w-10 h-10" />
-              <span>JavaScript</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <TypeScript className="w-10 h-10" />
-              <span>Typescript</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <Sql className="w-10 h-10" />
-              <span>SQL</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <Tailwind className="w-10 h-10" />
-              <span>Tailwind</span>
-            </div>
-            <div className="flex flex-col gap-3 items-center p-4 backdrop-blur-lg bg-black/30 rounded-2xl">
-              <Git className="w-10 h-10" />
-              <span>Git</span>
-            </div>
-          </div>
-        </div> */}
-        <div className="xl:w-1/3 w-full flex items-center justify-center">
+        <div className="xl:w-1/3 hidden xl:flex items-center justify-center">
           <img
             src="/gerard-centered.png"
             alt="Gerard Doncel"

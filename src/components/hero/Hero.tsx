@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="h-[calc(100svh-96px)] px-8 py-4 md:px-[5.5rem] mb-16 md:mb-24 flex flex-col gap-6 md:gap-0 md:justify-between"
+      className="h-[calc(100svh-96px)] px-6 py-4 md:px-[5.5rem] mb-16 md:mb-24 flex flex-col gap-6 md:gap-0 md:justify-between"
     >
       <div className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]">
         <h1 className="text-6xl sm:text-[96px] lg:text-[142px] font-semibold leading-none whitespace-nowrap">

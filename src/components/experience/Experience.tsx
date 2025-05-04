@@ -21,7 +21,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="mb-20 max-w-[1520px] mx-auto w-full px-8 md:px-[5.5rem]"
+      className="mb-14 md:mb-20 max-w-[1520px] mx-auto w-full px-6 md:px-[5.5rem]"
     >
       <Title label="Experience" />
       <div className="relative h-full">
