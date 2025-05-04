@@ -34,7 +34,7 @@ export default function Experience() {
           description="Working with a development team to enhance the main platform, including integrating and refining APIs and endpoints, while also managing a dashboard that allows for a variety of actions."
           side="left"
         >
-          <div className="flex lg:flex-wrap flex-nowrap overflow-x-auto px-1 justify-start lg:justify-end scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_5px,_black_calc(100%-5px),transparent_100%)]">
+          <div className="no-scrollbar px-4 flex lg:flex-wrap flex-nowrap overflow-x-auto justify-start lg:justify-end scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_15px,_black_calc(100%-15px),transparent_100%)]">
             <Badge color="bg-red-500/30" skill="Laravel">
               <Laravel />
             </Badge>
@@ -65,7 +65,7 @@ export default function Experience() {
           description="Developing quality Moodle plugins and integrations. Utilizing technologies to enhance the Moodle e-learning experience. Collaborating with clients, I analyze requirements to craft optimal solutions and ensure smooth integration."
           side="right"
         >
-          <div className="flex lg:flex-wrap flex-nowrap overflow-x-auto px-1 justify-start scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_5px,_black_calc(100%-5px),transparent_100%)]">
+          <div className="no-scrollbar px-4 flex lg:flex-wrap flex-nowrap overflow-x-auto justify-start scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_15px,_black_calc(100%-15px),transparent_100%)]">
             <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
@@ -90,7 +90,7 @@ export default function Experience() {
           description="Fixing general bugs of their web application. (4DMOVIN) Development of small tools to imporve web utility. Building WordPress sites, including landing pages, working with woo-commerce."
           side="left"
         >
-          <div className="flex lg:flex-wrap flex-nowrap overflow-x-auto px-1 justify-start lg:justify-end scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_5px,_black_calc(100%-5px),transparent_100%)]">
+          <div className="no-scrollbar px-4 flex lg:flex-wrap flex-nowrap overflow-x-auto justify-start lg:justify-end scroll-smooth [mask-image:_linear-gradient(to_right,transparent_0,_black_15px,_black_calc(100%-15px),transparent_100%)]">
             <Badge color="bg-indigo-500/30" skill="PHP">
               <Php />
             </Badge>
