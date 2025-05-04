@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section
       id="aboutme"
-      className="mb-14 md:mb-20 w-full max-w-[1520px] mx-auto px-6 md:px-[5.5rem]"
+      className="mb-14 md:mb-20 w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem]"
     >
       <Title label="About me" />
       <div className="flex flex-col xl:flex-row justify-between gap-8 md:gap-24">

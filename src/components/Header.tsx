@@ -13,7 +13,7 @@ export default function Header() {
       animate={{ y: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }}
     >
-      <div className="flex h-full px-6 md:px-[5.5rem] justify-between items-center relative">
+      <div className="flex h-full px-5 md:px-[5.5rem] justify-between items-center relative">
         <a href="#">
           <img src="/signature.png" alt="Gerard Doncel" className="w-20" />
         </a>

@@ -16,7 +16,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="mb-14 md:mb-20 section max-w-[1520px] mx-auto w-full px-6 md:px-[5.5rem]"
+      className="mb-14 md:mb-20 section max-w-[1520px] mx-auto w-full px-5 md:px-[5.5rem]"
     >
       <Title label="Projects" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
