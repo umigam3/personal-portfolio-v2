@@ -27,7 +27,7 @@ export default function Socials() {
         <div className="w-0.5 h-16 bg-white rounded-full"></div>
       </div>
       <div className="hidden md:flex flex-col gap-4 items-center text-sm absolute font-medium opacity-50 -right-28 top-[45%] -translate-y-1/2 -rotate-90">
-        <span>FULL STACK DEVELOPER | GERARD DONCEL</span>
+        <span>SOFTWARE DEVELOPER | GERARD DONCEL</span>
       </div>
     </>
   );

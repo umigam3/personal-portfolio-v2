@@ -17,7 +17,7 @@ export default function About() {
     >
       <Title label="About me" />
       <div className="flex flex-col xl:flex-row justify-between gap-8 md:gap-24">
-        <div className="xl:w-1/2 w-full text-lg md:text-xl">
+        <div className="xl:w-2/3 w-full text-lg md:text-xl">
           <p className="mb-4">
             Computer Engineer with more than{" "}
             <span className="text-primary font-semibold">
@@ -79,8 +79,15 @@ export default function About() {
               <Git className="w-10 h-10" />
               <span>Git</span>
             </div>
-          </div> 
-        </div>*/}
+          </div>
+        </div> */}
+        <div className="xl:w-1/3 w-full flex items-center justify-center">
+          <img
+            src="/gerard-centered.png"
+            alt="Gerard Doncel"
+            className="w-80"
+          />
+        </div>
       </div>
     </section>
   );

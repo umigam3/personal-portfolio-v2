@@ -50,11 +50,11 @@ export default function Hero() {
           <SocialsMobile />
         </div>
         <div className="flex flex-col items-end justify-end gap-2">
-          <img
+          {/* <img
             src="/gerard-centered.png"
             alt="Gerard Doncel"
             className="w-10 sm:w-14"
-          />
+          /> */}
           <span className="opacity-50 font-semibold text-xl mb-8">
             LOCAL TIME
           </span>
