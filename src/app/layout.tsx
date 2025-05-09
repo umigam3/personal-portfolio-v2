@@ -7,6 +7,7 @@ import Header from "@components/Header";
 import Cursor from "@components/Cursor";
 import SmoothScrolling from "@providers/SmoothScrolling";
 import SocialsDesktop from "@components/SocialsDesktop";
+import Footer from "@components/Footer";
 
 export const metadata: Metadata = {
   title: "Gerard Doncel - FullStack Developer",
@@ -26,6 +27,7 @@ export default function RootLayout({
           <Cursor />
           <Header />
           {children}
+          <Footer />
         </SmoothScrolling>
       </body>
     </html>
