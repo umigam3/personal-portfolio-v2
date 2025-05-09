@@ -16,31 +16,29 @@ export default function About() {
       className="mb-14 md:mb-20 w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem]"
     >
       <Title label="About me" />
-      <div className="flex flex-col xl:flex-row justify-between gap-8 md:gap-24">
-        <div className="xl:w-2/3 w-full text-lg md:text-xl">
-          <p className="mb-4">
-            Computer Engineer with more than{" "}
-            <span className="text-primary font-semibold">
-              2 years of experience using PHP
-            </span>
-            . Worked mainly with Laravel, Livewire, Alpine, JavaScript and SQL.
-            Additionally, I have gained proficiency in Angular and TypeScript.
-          </p>
-          <p className="mb-4">
-            My interest in technology started at the age of 15 when I got a
-            Raspberry Pi and began experimenting with different projects. This
-            experience led me to develop an interest in computer science ever
-            since.
-          </p>
-          <p className="mb-4">
-            One of my significant accomplishments includes{" "}
-            <span className="text-primary font-semibold">
-              working with Spain's first Moodle Premium Partner
-            </span>
-            , where I developed crucial plugins for well-known clients in the
-            e-learning industry.
-          </p>
-        </div>
+      <div className="w-full text-lg md:text-xl">
+        <p className="mb-4">
+          Computer Engineer with more than{" "}
+          <span className="text-primary font-semibold">
+            2 years of experience using PHP
+          </span>
+          . Worked mainly with Laravel, Livewire, Alpine, JavaScript and SQL.
+          Additionally, I have gained proficiency in Angular and TypeScript.
+        </p>
+        <p className="mb-4">
+          My interest in technology started at the age of 15 when I got a
+          Raspberry Pi and began experimenting with different projects. This
+          experience led me to develop an interest in computer science ever
+          since.
+        </p>
+        <p className="mb-4">
+          One of my significant accomplishments includes{" "}
+          <span className="text-primary font-semibold">
+            working with Spain's first Moodle Premium Partner
+          </span>
+          , where I developed crucial plugins for well-known clients in the
+          e-learning industry.
+        </p>
       </div>
     </section>
   );
