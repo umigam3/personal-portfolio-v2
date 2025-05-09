@@ -3,10 +3,7 @@ import Title from "@components/ui/Title";
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="max-w-[1520px] mx-auto w-full px-5 md:px-[5.5rem] h-[calc(100dvh-96px)] flex flex-col items-center justify-center"
-    >
+    <section className="max-w-[1520px] mx-auto w-full px-5 md:px-[5.5rem] h-[calc(100dvh-96px)] flex flex-col items-center justify-center">
       <img
         src="/gerard-centered.png"
         alt="Gerard Doncel"
