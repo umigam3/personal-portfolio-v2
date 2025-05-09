@@ -6,7 +6,7 @@ import LinkedIn from "@components/icons/LinkedIn";
 export default function Socials() {
   return (
     <>
-      <div className="hidden md:flex flex-col gap-4 items-center absolute left-4 top-[45%] -translate-y-1/2">
+      <div className="hidden md:flex flex-col gap-4 items-center fixed left-4 top-[50%] -translate-y-1/2">
         <div className="w-0.5 h-16 bg-white rounded-full"></div>
         <a
           href="https://github.com/"
@@ -26,7 +26,7 @@ export default function Socials() {
         </a>
         <div className="w-0.5 h-16 bg-white rounded-full"></div>
       </div>
-      <div className="hidden md:flex flex-col gap-4 items-center text-sm absolute font-medium opacity-50 -right-28 top-[45%] -translate-y-1/2 -rotate-90">
+      <div className="hidden md:flex flex-col gap-4 items-center text-sm fixed font-medium opacity-50 -right-28 top-[50%] -translate-y-1/2 -rotate-90">
         <span>SOFTWARE DEVELOPER | GERARD DONCEL</span>
       </div>
     </>

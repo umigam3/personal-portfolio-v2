@@ -41,13 +41,6 @@ export default function About() {
             e-learning industry.
           </p>
         </div>
-        <div className="xl:w-1/3 hidden xl:flex items-center justify-center">
-          <img
-            src="/gerard-centered.png"
-            alt="Gerard Doncel"
-            className="w-80"
-          />
-        </div>
       </div>
     </section>
   );
