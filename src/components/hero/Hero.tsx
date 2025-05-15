@@ -1,22 +1,37 @@
 import SocialsMobile from "@components/SocialsMobile";
 import { Clock } from "./Clock";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   const now = new Date();
+
+  const zoomIn = {
+    hidden: { opacity: 0, scale: 0.5 },
+    show: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 1, ease: "easeOut" },
+    },
+  };
 
   return (
     <section
       id="hero"
       className="h-[calc(100svh-96px)] px-5 py-4 md:px-[5.5rem] mb-16 md:mb-24 flex flex-col gap-6 md:gap-0 md:justify-between"
     >
-      <div className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]">
+      <motion.div
+        initial="hidden"
+        animate="show"
+        variants={zoomIn}
+        className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]"
+      >
         <h1 className="text-6xl sm:text-[96px] lg:text-[142px] font-semibold leading-none whitespace-nowrap">
           Software
         </h1>
         <h2 className="text-4xl sm:text-[68px] lg:text-[112px] font-medium leading-none bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
           Developer.
         </h2>
-      </div>
+      </motion.div>
       <div className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full">
         <div>
           <div className="flex flex-col gap-4 md:gap-6 sm:w-96 lg:w-[400px] mb-8 md:mb-0">
