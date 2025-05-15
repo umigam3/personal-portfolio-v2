@@ -32,7 +32,12 @@ export default function Hero() {
           Developer.
         </h2>
       </motion.div>
-      <div className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full">
+      <motion.div
+        className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full"
+        initial={{ y: 300, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 1 }}
+      >
         <div>
           <div className="flex flex-col gap-4 md:gap-6 sm:w-96 lg:w-[400px] mb-8 md:mb-0">
             <p className="text-lg">
@@ -75,7 +80,7 @@ export default function Hero() {
           </span>
           <Clock time={now.getTime()} />
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
