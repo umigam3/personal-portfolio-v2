@@ -11,7 +11,7 @@ export default function Header() {
       className="sticky top-0 z-20 h-20 backdrop-blur-xl"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      transition={{ duration: 1, delay: 2 }}
+      transition={{ duration: 0.5, delay: 1.5 }}
     >
       <div className="flex h-full px-5 md:px-[5.5rem] justify-between items-center relative">
         <a href="#">
