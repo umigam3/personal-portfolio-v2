@@ -10,7 +10,7 @@ export default function Hero() {
     show: {
       opacity: 1,
       scale: 1,
-      transition: { duration: 0.5, ease: "easeOut", delay: 1 },
+      transition: { duration: 0.5, ease: "easeOut", delay: 0.5 },
     },
   };
 
@@ -36,7 +36,7 @@ export default function Hero() {
         className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full"
         initial={{ y: 300, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 1.5 }}
+        transition={{ duration: 0.5, delay: 1 }}
       >
         <div>
           <div className="flex flex-col gap-4 md:gap-6 sm:w-96 lg:w-[400px] mb-8 md:mb-0">

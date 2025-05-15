@@ -10,7 +10,7 @@ export default function Socials() {
       <motion.div
         initial={{ x: -100, y: "-50%", opacity: 0 }}
         animate={{ x: 0, y: "-50%", opacity: 1 }}
-        transition={{ duration: 0.5, delay: 1.5 }}
+        transition={{ duration: 0.5, delay: 1 }}
         className="hidden md:flex flex-col gap-4 items-center fixed left-4 top-[50%]"
       >
         <div className="w-0.5 h-16 bg-white rounded-full"></div>
@@ -35,7 +35,7 @@ export default function Socials() {
       <motion.div
         initial={{ x: 100, y: "-50%", opacity: 0, rotate: -90 }}
         animate={{ x: 0, y: "-50%", opacity: 0.5, rotate: -90 }}
-        transition={{ duration: 0.5, delay: 1.5 }}
+        transition={{ duration: 0.5, delay: 1 }}
         className="hidden md:flex flex-col gap-4 items-center text-sm fixed font-medium -right-28 top-[50%]"
       >
         <span>SOFTWARE DEVELOPER | GERARD DONCEL</span>
