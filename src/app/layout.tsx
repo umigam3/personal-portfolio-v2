@@ -12,6 +12,7 @@ import SocialsDesktop from "@/components/layout/SocialsDesktop";
 import Footer from "@/components/layout/Footer";
 
 import SmoothScrolling from "@/providers/SmoothScrolling";
+import BackToTopButton from "@/components/layout/BackToTopButton";
 
 export const metadata: Metadata = {
   title: "Gerard Doncel - FullStack Developer",
@@ -32,6 +33,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <BackToTopButton />
         </SmoothScrolling>
       </body>
     </html>
