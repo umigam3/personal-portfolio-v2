@@ -36,7 +36,18 @@ export default function ExperienceCard({
         <p className="px-4 md:text-lg mb-4 text-gray-400 dark:text-gray-400">
           {description}
         </p>
-        {children}
+        <div
+          className={`no-scrollbar px-4 flex flex-nowrap overflow-x-auto scroll-smooth
+            ${side === "right" ? "lg:justify-start" : "lg:justify-end"} 
+            justify-start lg:flex-wrap`}
+          style={{
+            maskImage:
+              "linear-gradient(to right, transparent 0, black 15px, black calc(100% - 15px), transparent 100%)",
+          }}
+        >
+          {" "}
+          {children}
+        </div>
       </div>
     </div>
   );
