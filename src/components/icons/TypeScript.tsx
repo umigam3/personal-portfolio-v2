@@ -1,6 +1,10 @@
-import type { IconProps } from "@/interfaces/IconProps";
-
-export default function TypeScript({ className, size = 16 }: IconProps) {
+export default function TypeScript({
+  className,
+  size = 16,
+}: {
+  className?: string;
+  size?: number;
+}) {
   return (
     <svg
       className={className}

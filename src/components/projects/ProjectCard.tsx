@@ -1,21 +1,19 @@
 import { ReactNode } from "react";
 
-interface ProjectCardProps {
-  title: string;
-  source: string;
-  description: string;
-  children?: ReactNode;
-  skills: ReactNode;
-  buttons: ReactNode;
-}
-
 export default function ProjectCard({
   title,
   source,
   description,
   skills,
   buttons,
-}: ProjectCardProps) {
+}: {
+  title: string;
+  source: string;
+  description: string;
+  children?: ReactNode;
+  skills: ReactNode;
+  buttons: ReactNode;
+}) {
   return (
     <div className="flex flex-col mb-8 w-full bg-black/20 rounded-lg">
       <div className="project-image w-full overflow-hidden rounded-t-lg">
