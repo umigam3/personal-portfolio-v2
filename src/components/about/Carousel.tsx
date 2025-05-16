@@ -1,17 +1,19 @@
-import PhpCarousel from "@components/icons/PhpCarousel";
-import Laravel from "@components/icons/Laravel";
-import Html from "@components/icons/Html";
-import Css from "@components/icons/Css";
-import JavaScript from "@components/icons/JavaScript";
-import Sql from "@components/icons/Sql";
-import Git from "@components/icons/Git";
-import React from "@components/icons/React";
-import Tailwind from "@components/icons/Tailwind";
-import VisualStudioCode from "@components/icons/VisualStudioCode";
+import {
+  PhpCarousel,
+  Laravel,
+  Html,
+  Css,
+  JavaScript,
+  Sql,
+  Git,
+  React,
+  Tailwind,
+  VisualStudioCode,
+} from "@/components/icons";
 
 export default function Carousel() {
   return (
-    <div className="w-full inline-flex flex-nowrap overflow-hidden mb-12 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+    <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
       <ul className="flex items-center justify-center md:justify-start [&_li]:mx-5 sm:[&_li]:mx-8 animate-infinite-scroll">
         <li>
           <PhpCarousel size={80} />

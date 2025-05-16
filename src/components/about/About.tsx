@@ -1,13 +1,6 @@
-import Alpine from "@components/icons/Alpine";
-import Git from "@components/icons/Git";
-import JavaScript from "@components/icons/JavaScript";
-import Laravel from "@components/icons/Laravel";
-import Livewire from "@components/icons/Livewire";
-import React from "@components/icons/React";
-import Sql from "@components/icons/Sql";
-import Tailwind from "@components/icons/Tailwind";
-import TypeScript from "@components/icons/TypeScript";
-import Title from "@components/ui/Title";
+import React from "@/components/icons/React";
+import Title from "@/components/ui/Title";
+import Carousel from "@/components/about/Carousel";
 
 export default function About() {
   return (
@@ -16,7 +9,7 @@ export default function About() {
       className="mb-14 md:mb-20 w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem]"
     >
       <Title label="About me" />
-      <div className="w-full text-lg md:text-xl">
+      <div className="w-full text-lg md:text-xl mb-16">
         <p className="mb-4">
           Computer Engineer with more than{" "}
           <span className="text-primary font-semibold">
@@ -40,6 +33,7 @@ export default function About() {
           e-learning industry.
         </p>
       </div>
+      <Carousel />
     </section>
   );
 }

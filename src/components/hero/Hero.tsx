@@ -1,43 +1,26 @@
-import SocialsMobile from "@components/SocialsMobile";
-import { Clock } from "./Clock";
-import { delay, motion } from "framer-motion";
+import { useSmoothScroll } from "@/hooks/useSmoothScroll";
+
+import SocialsMobile from "@/components/SocialsMobile";
+import { Clock } from "@/components/hero/Clock";
 
 export default function Hero() {
   const now = new Date();
-
-  const zoomIn = {
-    hidden: { opacity: 0, scale: 0.5 },
-    show: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.5, ease: "easeOut", delay: 0.5 },
-    },
-  };
+  const { scrollToId } = useSmoothScroll();
 
   return (
     <section
       id="hero"
       className="h-[calc(100svh-96px)] px-5 py-4 md:px-[5.5rem] mb-16 md:mb-24 flex flex-col gap-6 md:gap-0 md:justify-between"
     >
-      <motion.div
-        initial="hidden"
-        animate="show"
-        variants={zoomIn}
-        className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]"
-      >
+      <div className="flex flex-col items-start md:items-center md:justify-center md:h-[80%]">
         <h1 className="text-6xl sm:text-[96px] lg:text-[142px] font-semibold leading-none whitespace-nowrap">
           Software
         </h1>
-        <h2 className="text-4xl sm:text-[68px] lg:text-[112px] font-medium leading-none bg-gradient-to-r from-[#F47B2A] to-[#FFC76B] inline-block text-transparent bg-clip-text">
+        <h2 className="text-4xl sm:text-[68px] lg:text-[112px] font-medium leading-none bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] inline-block text-transparent bg-clip-text">
           Developer.
         </h2>
-      </motion.div>
-      <motion.div
-        className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full"
-        initial={{ y: 300, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 1 }}
-      >
+      </div>
+      <div className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full">
         <div>
           <div className="flex flex-col gap-4 md:gap-6 sm:w-96 lg:w-[400px] mb-8 md:mb-0">
             <p className="text-lg">
@@ -48,7 +31,10 @@ export default function Hero() {
               </span>{" "}
               and efficient solutions.
             </p>
-            <a href="#aboutme" className="flex gap-3 items-center group w-fit">
+            <a
+              onClick={() => scrollToId("aboutme")}
+              className="flex gap-3 items-center group w-fit cursor-pointer"
+            >
               <span>More about me</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,17 +56,12 @@ export default function Hero() {
           <SocialsMobile />
         </div>
         <div className="flex flex-col items-end justify-end gap-2">
-          {/* <img
-            src="/gerard-centered.png"
-            alt="Gerard Doncel"
-            className="w-10 sm:w-14"
-          /> */}
           <span className="opacity-50 font-semibold text-xl mb-8">
             LOCAL TIME
           </span>
           <Clock time={now.getTime()} />
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }

@@ -1,4 +1,4 @@
-import type { IconProps } from "@interfaces/IconProps";
+import type { IconProps } from "@/interfaces/IconProps";
 
 export default function Vite({ className, size = 16 }: IconProps) {
   return (

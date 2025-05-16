@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
-import "@styles/globals.css";
+
 import "@fontsource-variable/onest";
 import "@fontsource-variable/roboto-condensed";
 import "@fontsource/poppins";
-import Header from "@components/Header";
-import Cursor from "@components/Cursor";
-import SmoothScrolling from "@providers/SmoothScrolling";
-import SocialsDesktop from "@components/SocialsDesktop";
-import Footer from "@components/Footer";
+
+import "@/styles/globals.css";
+
+import Header from "@/components/Header";
+import Background from "@/components/Background";
+import SocialsDesktop from "@/components/SocialsDesktop";
+import Footer from "@/components/Footer";
+
+import SmoothScrolling from "@/providers/SmoothScrolling";
 
 export const metadata: Metadata = {
   title: "Gerard Doncel - FullStack Developer",
@@ -24,7 +28,7 @@ export default function RootLayout({
       <body>
         <SmoothScrolling>
           <SocialsDesktop />
-          <Cursor />
+          <Background />
           <Header />
           {children}
           <Footer />

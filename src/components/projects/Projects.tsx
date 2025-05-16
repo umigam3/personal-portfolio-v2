@@ -1,16 +1,16 @@
-import ProjectCard from "@components/projects/ProjectCard";
-import Badge from "@components/ui/Badge";
-import ButtonSecondary from "@components/ui/ButtonSecondary";
+import ProjectCard from "@/components/projects/ProjectCard";
+import Badge from "@/components/ui/Badge";
+import ButtonSecondary from "@/components/ui/ButtonSecondary";
 
-import ReactIcon from "@components/icons/React";
-import JavaScriptIcon from "@components/icons/JavaScript";
+import ReactIcon from "@/components/icons/React";
+import JavaScriptIcon from "@/components/icons/JavaScript";
 
-import PreviewIcon from "@components/icons/Preview";
-import SourceIcon from "@components/icons/Source";
-import ViteIcon from "@components/icons/Vite";
-import BashIcon from "@components/icons/Bash";
-import LinuxIcon from "@components/icons/Linux";
-import Title from "@components/ui/Title";
+import PreviewIcon from "@/components/icons/Preview";
+import SourceIcon from "@/components/icons/Source";
+import ViteIcon from "@/components/icons/Vite";
+import BashIcon from "@/components/icons/Bash";
+import LinuxIcon from "@/components/icons/Linux";
+import Title from "@/components/ui/Title";
 
 export default function Projects() {
   return (

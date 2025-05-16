@@ -1,5 +1,5 @@
-import LinkedIn from "@components/icons/LinkedIn";
-import Title from "@components/ui/Title";
+import LinkedIn from "@/components/icons/LinkedIn";
+import Title from "@/components/ui/Title";
 
 export default function Contact() {
   return (

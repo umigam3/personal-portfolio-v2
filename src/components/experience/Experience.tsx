@@ -1,21 +1,24 @@
-import Laravel from "@components/icons/Laravel";
-import JavaScript from "@components/icons/JavaScript";
-import Sql from "@components/icons/Sql";
-import Git from "@components/icons/Git";
-import React from "@components/icons/React";
-import Tailwind from "@components/icons/Tailwind";
-import Alpine from "@components/icons/Alpine";
-import Badge from "@components/ui/Badge";
-import ExperienceCard from "@components/experience/ExperienceCard";
-import Php from "@components/icons/Php";
-import Livewire from "@components/icons/Livewire";
-import Bootstrap from "@components/icons/Bootstrap";
-import TypeScript from "@components/icons/TypeScript";
-import WordPress from "@components/icons/WordPress";
-import Angular from "@components/icons/Angular";
-import Css from "@components/icons/Css";
+import {
+  Laravel,
+  JavaScript,
+  Sql,
+  Git,
+  React,
+  Tailwind,
+  Alpine,
+  Php,
+  Livewire,
+  Bootstrap,
+  TypeScript,
+  WordPress,
+  Angular,
+  Css,
+} from "@/components/icons";
 
-import Title from "@components/ui/Title";
+import Badge from "@/components/ui/Badge";
+import ExperienceCard from "@/components/experience/ExperienceCard";
+
+import Title from "@/components/ui/Title";
 
 export default function Experience() {
   return (

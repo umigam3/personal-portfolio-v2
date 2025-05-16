@@ -8,6 +8,16 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        "infinite-scroll": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        "infinite-scroll": "infinite-scroll 20s linear infinite",
+      },
+
       fontFamily: {
         delirium: ["Delirium", "sans-serif"],
         roboto: ["Roboto Condensed", "sans-serif"],
