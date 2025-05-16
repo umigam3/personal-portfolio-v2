@@ -13,20 +13,19 @@ export const useSmoothScroll = () => {
   const scrollToTop = () => {
     if (lenis) {
       lenis.scrollTo(0);
-    } else {
-      window.scrollTo({ top: 0, behavior: "smooth" }); // Fallback
     }
   };
 
-  const scrollToElement = (el: HTMLElement | null, offset: number = 0) => {
-    if (el && lenis) {
-      lenis.scrollTo(el, { offset });
+  const scrollToBottom = () => {
+    const bottom = document.body.scrollHeight;
+    if (lenis) {
+      lenis.scrollTo(bottom);
     }
   };
 
   return {
     scrollToId,
     scrollToTop,
-    scrollToElement,
+    scrollToBottom,
   };
 };

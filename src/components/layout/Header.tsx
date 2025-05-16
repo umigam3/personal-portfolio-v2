@@ -8,8 +8,7 @@ import { useLenis } from "lenis/react";
 
 export default function Header() {
   const { scrollYProgress } = useScroll();
-  const { scrollToTop } = useSmoothScroll();
-  const { scrollToId } = useSmoothScroll();
+  const { scrollToTop, scrollToBottom, scrollToId } = useSmoothScroll();
 
   return (
     <header className="sticky top-0 z-20 h-20 backdrop-blur-xl">
@@ -41,7 +40,7 @@ export default function Header() {
             </a>
           </nav>
           <a
-            onClick={() => scrollToId("contact")}
+            onClick={() => scrollToBottom()}
             className="bg-primary text-white px-6 py-2 rounded-xl cursor-pointer"
           >
             Get in touch
