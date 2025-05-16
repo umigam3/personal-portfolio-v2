@@ -1,9 +1,11 @@
 import LinkedIn from "@/components/icons/LinkedIn";
-import Title from "@/components/ui/Title";
+import Section from "../ui/Section";
+import SectionTitle from "@/components/ui/SectionTitle";
 
 export default function Contact() {
   return (
-    <section className="max-w-[1520px] mx-auto w-full px-5 md:px-[5.5rem] h-[calc(100dvh-96px)] flex flex-col items-center justify-center">
+    <Section id="contact">
+      <SectionTitle label="Contact" />
       <img
         src="/gerard-centered.png"
         alt="Gerard Doncel"
@@ -58,6 +60,6 @@ export default function Contact() {
           LinkedIn profile page
         </a>
       </div>
-    </section>
+    </Section>
   );
 }

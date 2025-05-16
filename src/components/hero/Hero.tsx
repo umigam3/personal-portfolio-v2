@@ -1,6 +1,6 @@
 import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 
-import SocialsMobile from "@/components/SocialsMobile";
+import SocialsMobile from "@/components/hero/SocialsMobile";
 import { Clock } from "@/components/hero/Clock";
 
 export default function Hero() {

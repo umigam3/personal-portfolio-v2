@@ -6,10 +6,10 @@ import "@fontsource/poppins";
 
 import "@/styles/globals.css";
 
-import Header from "@/components/Header";
-import Background from "@/components/Background";
-import SocialsDesktop from "@/components/SocialsDesktop";
-import Footer from "@/components/Footer";
+import Header from "@/components/layout/Header";
+import Background from "@/components/layout/Background";
+import SocialsDesktop from "@/components/layout/SocialsDesktop";
+import Footer from "@/components/layout/Footer";
 
 import SmoothScrolling from "@/providers/SmoothScrolling";
 

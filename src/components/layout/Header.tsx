@@ -42,7 +42,7 @@ export default function Header() {
           </nav>
           <a
             onClick={() => scrollToId("contact")}
-            className="bg-primary text-white px-6 py-2 rounded-xl"
+            className="bg-primary text-white px-6 py-2 rounded-xl cursor-pointer"
           >
             Get in touch
           </a>

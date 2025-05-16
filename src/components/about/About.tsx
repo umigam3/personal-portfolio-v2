@@ -1,14 +1,12 @@
 import React from "@/components/icons/React";
-import Title from "@/components/ui/Title";
 import Carousel from "@/components/about/Carousel";
+import Section from "@/components/ui/Section";
+import SectionTitle from "@/components/ui/SectionTitle";
 
 export default function About() {
   return (
-    <section
-      id="aboutme"
-      className="mb-14 md:mb-20 w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem]"
-    >
-      <Title label="About me" />
+    <Section id="aboutme">
+      <SectionTitle label="About me" />
       <div className="w-full text-lg md:text-xl mb-16">
         <p className="mb-4">
           Computer Engineer with more than{" "}
@@ -34,6 +32,6 @@ export default function About() {
         </p>
       </div>
       <Carousel />
-    </section>
+    </Section>
   );
 }

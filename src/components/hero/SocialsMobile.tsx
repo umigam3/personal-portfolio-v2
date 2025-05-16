@@ -2,7 +2,7 @@
 
 import GitHub from "@/components/icons/GitHub";
 import LinkedIn from "@/components/icons/LinkedIn";
-import SocialButton from "./ui/SocialButton";
+import SocialButton from "@/components/ui/SocialButton";
 
 export default function Socials() {
   return (
