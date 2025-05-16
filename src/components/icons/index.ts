@@ -15,3 +15,8 @@ export { default as Livewire } from "./Livewire";
 export { default as TypeScript } from "./TypeScript";
 export { default as WordPress } from "./WordPress";
 export { default as Angular } from "./Angular";
+export { default as Preview } from "./Preview";
+export { default as Source } from "./Source";
+export { default as Vite } from "./Vite";
+export { default as Bash } from "./Bash";
+export { default as Linux } from "./Linux";
