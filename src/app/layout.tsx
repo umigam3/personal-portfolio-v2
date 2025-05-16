@@ -15,8 +15,23 @@ import SmoothScrolling from "@/providers/SmoothScrolling";
 import BackToTopButton from "@/components/layout/BackToTopButton";
 
 export const metadata: Metadata = {
-  title: "Gerard Doncel - FullStack Developer",
-  description: "Personal portfolio",
+  title: "Gerard Doncel",
+  description: "Driving high-quality and efficient software solutions",
+  openGraph: {
+    title: "Gerard Doncel",
+    description: "Driving high-quality and efficient software solutions.",
+    type: "website",
+    url: "https://gerarddoncel.com",
+    siteName: "Gerard Doncel",
+    images: [
+      {
+        url: "https://gerarddoncel.com/metadata-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Gerard Doncel",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
