@@ -56,9 +56,7 @@ export default function Hero() {
           <SocialsMobile />
         </div>
         <div className="flex flex-col items-end justify-end gap-2">
-          <span className="opacity-50 font-semibold text-xl mb-8">
-            LOCAL TIME
-          </span>
+          <span className="opacity-50 font-semibold text-xl">LOCAL TIME</span>
           <Clock time={now.getTime()} />
         </div>
       </div>
