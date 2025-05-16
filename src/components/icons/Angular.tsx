@@ -10,65 +10,24 @@ export default function Angular({
       className={className}
       width={size}
       height={size}
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 242 256"
+      viewBox="-8 0 272 272"
+      version="1.1"
+      preserveAspectRatio="xMidYMid"
     >
-      <g clipPath="url(#a)">
-        <mask
-          id="b"
-          width="242"
-          height="256"
-          x="0"
-          y="0"
-          maskUnits="userSpaceOnUse"
-          style={{ maskType: "luminance" }}
-        >
-          <path fill="#fff" d="M0 0h242v256H0V0Z" />
-        </mask>
-        <g mask="url(#b)">
-          <path
-            fill="url(#c)"
-            d="m241 43-9 136L149 0l92 43Zm-58 176-62 36-63-36 12-31h101l12 31ZM121 68l32 80H88l33-80ZM9 179 0 43 92 0 9 179Z"
-          />
-          <path
-            fill="url(#d)"
-            d="m241 43-9 136L149 0l92 43Zm-58 176-62 36-63-36 12-31h101l12 31ZM121 68l32 80H88l33-80ZM9 179 0 43 92 0 9 179Z"
-          />
-        </g>
+      <g>
+        <path
+          d="M0.0996108949,45.522179 L125.908171,0.697276265 L255.103502,44.7252918 L234.185214,211.175097 L125.908171,271.140856 L19.3245136,211.971984 L0.0996108949,45.522179 Z"
+          fill="#E23237"
+        ></path>
+        <path
+          d="M255.103502,44.7252918 L125.908171,0.697276265 L125.908171,271.140856 L234.185214,211.274708 L255.103502,44.7252918 L255.103502,44.7252918 Z"
+          fill="#B52E31"
+        ></path>
+        <path
+          d="M126.107393,32.27393 L126.107393,32.27393 L47.7136187,206.692607 L76.9992218,206.194553 L92.7377432,166.848249 L126.207004,166.848249 L126.306615,166.848249 L163.063035,166.848249 L180.29572,206.692607 L208.286381,207.190661 L126.107393,32.27393 L126.107393,32.27393 Z M126.306615,88.155642 L152.803113,143.5393 L127.402335,143.5393 L126.107393,143.5393 L102.997665,143.5393 L126.306615,88.155642 L126.306615,88.155642 Z"
+          fill="#FFFFFF"
+        ></path>
       </g>
-      <defs>
-        <linearGradient
-          id="c"
-          x1="53.2"
-          x2="245"
-          y1="231.9"
-          y2="140.7"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#E40035" />
-          <stop offset=".2" stopColor="#F60A48" />
-          <stop offset=".4" stopColor="#F20755" />
-          <stop offset=".5" stopColor="#DC087D" />
-          <stop offset=".7" stopColor="#9717E7" />
-          <stop offset="1" stopColor="#6C00F5" />
-        </linearGradient>{" "}
-        <linearGradient
-          id="d"
-          x1="44.5"
-          x2="170"
-          y1="30.7"
-          y2="174"
-          gradientUnits="userSpaceOnUse"
-        >
-          {" "}
-          <stop stopColor="#FF31D9" />
-          <stop offset="1" stopColor="#FF5BE1" stopOpacity="0" />
-        </linearGradient>
-        <clipPath id="a">
-          <path fill="#fff" d="M0 0h242v256H0z" />
-        </clipPath>
-      </defs>
     </svg>
   );
 }
