@@ -20,3 +20,4 @@ export { default as Source } from "./Source";
 export { default as Vite } from "./Vite";
 export { default as Bash } from "./Bash";
 export { default as Linux } from "./Linux";
+export { default as Copy } from "./Copy";

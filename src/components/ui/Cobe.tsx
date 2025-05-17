@@ -37,8 +37,8 @@ export default function Cobe() {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute -bottom-36 right-0 -z-10 opacity-50"
-      style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}
+      className="absolute -bottom-36 right-0 -z-10 opacity-50 w-[600px] h-[600px]"
+      style={{ maxWidth: "100%", aspectRatio: 1 }}
     />
   );
 }
