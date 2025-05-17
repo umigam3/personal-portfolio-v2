@@ -14,11 +14,11 @@ export default function Cobe() {
       width: 600 * 2,
       height: 600 * 2,
       phi: 0,
-      theta: 0,
+      theta: 0.5,
       dark: 1,
-      diffuse: 1.2,
+      diffuse: 1.5,
       mapSamples: 16000,
-      mapBrightness: 6,
+      mapBrightness: 3,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [0.647, 0.529, 0.902],
       glowColor: [0.2, 0.2, 0.2],
@@ -37,7 +37,7 @@ export default function Cobe() {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute -bottom-36 right-0 -z-10 opacity-80"
+      className="absolute -bottom-36 right-0 -z-10 opacity-50"
       style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}
     />
   );
