@@ -23,9 +23,9 @@ export default function Cobe() {
     let phi = 0;
 
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: window.devicePixelRatio || 1,
-      width: canvasRef.current.offsetWidth,
-      height: canvasRef.current.offsetHeight,
+      devicePixelRatio: 1,
+      width: 600,
+      height: 600,
       phi: 0,
       theta: 0.5,
       dark: 1,
