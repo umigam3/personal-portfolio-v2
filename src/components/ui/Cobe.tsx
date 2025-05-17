@@ -10,14 +10,14 @@ export default function Cobe() {
     let phi = 0;
 
     const globe = createGlobe(canvasRef.current!, {
-      devicePixelRatio: 2,
-      width: 600 * 2,
-      height: 600 * 2,
+      devicePixelRatio: 1,
+      width: 600,
+      height: 600,
       phi: 0,
       theta: 0.5,
       dark: 1,
       diffuse: 1.5,
-      mapSamples: 16000,
+      mapSamples: 8000,
       mapBrightness: 3,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [0.647, 0.529, 0.902],
