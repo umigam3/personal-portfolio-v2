@@ -24,7 +24,7 @@ export default function Header() {
   }, [isOpen, lenis]);
 
   return (
-    <header className="sticky top-0 z-20 h-20 backdrop-blur-xl">
+    <header className="sticky top-0 z-20 h-20">
       <div className="flex h-full px-5 md:px-[5.5rem] justify-between items-center relative">
         <a href="#">
           <img
