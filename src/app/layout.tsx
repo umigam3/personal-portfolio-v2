@@ -9,7 +9,6 @@ import "@/styles/globals.css";
 import Header from "@/components/layout/Header";
 import Background from "@/components/layout/Background";
 import SocialsDesktop from "@/components/layout/SocialsDesktop";
-import Footer from "@/components/layout/Footer";
 
 import SmoothScrolling from "@/providers/SmoothScrolling";
 import BackToTopButton from "@/components/layout/BackToTopButton";
@@ -40,14 +39,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className="relative">
+    <html lang="en" className="dark overflow-x-hidden">
+      <body>
         <SmoothScrolling>
           <SocialsDesktop />
           <Background />
           <Header />
           {children}
-          {/* <Footer /> */}
           <BackToTopButton />
         </SmoothScrolling>
       </body>

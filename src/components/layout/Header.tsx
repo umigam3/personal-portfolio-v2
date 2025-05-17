@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-10 h-20 backdrop-blur-xl">
-      <div className="flex h-full px-5 md:px-[5.5rem] justify-between items-center relative">
+      <div className="flex h-full px-5 md:px-[5.5rem] justify-between items-center">
         <a href="#">
           <img
             onClick={scrollToTop}
@@ -76,17 +76,14 @@ export default function Header() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.3 }}
-                className="fixed inset-0 h-dvh bg-black/70 z-30 md:hidden touch-none"
+                className="fixed inset-0 h-screen bg-black/70 z-30 md:hidden touch-none"
               />
               <motion.div
                 key="mobile-menu"
-                initial={{ x: "100%" }}
-                animate={{ x: 0 }}
-                exit={{ x: "100%" }}
-                transition={{
-                  duration: 0.25,
-                  ease: !isOpen ? [0.32, 0, 0.67, 0] : [0.25, 1, 0.5, 1],
-                }}
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.95 }}
+                transition={{ duration: 0.2, ease: "easeOut" }}
                 className="fixed top-0 right-0 w-3/4 max-w-xs h-dvh bg-[#191919] flex flex-col items-start justify-between px-8 gap-y-6 py-6 md:hidden shadow-lg z-40 border-l border-primary"
               >
                 <div className="flex flex-col w-full">
