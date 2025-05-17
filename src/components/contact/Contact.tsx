@@ -83,7 +83,7 @@ export default function Contact() {
           <div className="h-0.5 w-full bg-gray-600 opacity-50"></div>
         </div>
       </div>
-      {/* <Cobe /> */}
+      <Cobe />
     </section>
   );
 }
