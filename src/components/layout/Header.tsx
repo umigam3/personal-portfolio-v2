@@ -76,7 +76,7 @@ export default function Header() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.3 }}
-                className="fixed inset-0 h-dvh bg-black/70 backdrop-blur-xl z-40 md:hidden touch-none"
+                className="fixed inset-0 h-dvh bg-black/70 z-40 md:hidden touch-none"
               />
               <motion.div
                 key="mobile-menu"
