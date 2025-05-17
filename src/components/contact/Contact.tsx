@@ -30,14 +30,14 @@ export default function Contact() {
             <a
               href={`mailto:${email}`}
               target="_blank"
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold lg:hover:text-primary duration-200"
+              className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold lg:hover:text-primary duration-200"
             >
               {email}
             </a>
             <button
               onClick={handleCopy}
               aria-label="Copiar correo electrónico"
-              className="relative flex items-center gap-1 hover:text-primary transition-colors duration-200"
+              className="relative flex items-center gap-1 lg:hover:text-primary transition-colors duration-200"
             >
               <Copy size={24} />
 
@@ -64,7 +64,7 @@ export default function Contact() {
           <a
             href="tel:+34636739799"
             target="_blank"
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
+            className="text-xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
           >
             +34 636 73 97 99
           </a>
@@ -76,7 +76,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/gerarddoncel/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
+            className="text-xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
           >
             LinkedIn Profile Page
           </a>
