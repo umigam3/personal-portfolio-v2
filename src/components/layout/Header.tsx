@@ -77,6 +77,9 @@ export default function Header() {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.3 }}
                 className="fixed inset-0 h-screen bg-black/70 z-30 md:hidden touch-none"
+                onClick={() => {
+                  setIsOpen(false);
+                }}
               />
               <motion.div
                 key="mobile-menu"
