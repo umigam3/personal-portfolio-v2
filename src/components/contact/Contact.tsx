@@ -37,7 +37,7 @@ export default function Contact() {
             <button
               onClick={handleCopy}
               aria-label="Copiar correo electrónico"
-              className="flex items-center gap-1 lg:hover:text-primary transition-colors duration-200"
+              className="relative flex items-center gap-1 lg:hover:text-primary transition-colors duration-200"
             >
               <Copy size={24} />
 
