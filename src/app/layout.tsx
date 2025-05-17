@@ -41,13 +41,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body>
+      <body className="relative">
         <SmoothScrolling>
           <SocialsDesktop />
           <Background />
           <Header />
           {children}
-          <Footer />
+          {/* <Footer /> */}
           <BackToTopButton />
         </SmoothScrolling>
       </body>

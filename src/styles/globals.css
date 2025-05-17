@@ -37,15 +37,6 @@ html {
   }
 }
 
-.project {
-  clip-path: inset(50% 0 50%);
-  transition: clip-path 0.4s;
-}
-
-.relative:hover .project {
-  clip-path: inset(0 0 0);
-}
-
 @keyframes breathe {
   0%,
   100% {
@@ -56,10 +47,6 @@ html {
     transform: scale(1.1);
     opacity: 1;
   }
-}
-
-.animate-breathe {
-  animation: breathe 6s ease-in-out infinite;
 }
 
 .no-scrollbar::-webkit-scrollbar {
