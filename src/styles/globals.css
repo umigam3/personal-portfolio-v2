@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Delirium";
-  src: url("/fonts/Delirium.ttf");
-}
-
 *,
 *::before,
 *::after {

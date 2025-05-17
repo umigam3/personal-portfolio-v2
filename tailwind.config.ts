@@ -22,10 +22,7 @@ export default {
       animation: {
         "infinite-scroll": "infinite-scroll 20s linear infinite",
       },
-
       fontFamily: {
-        delirium: ["Delirium", "sans-serif"],
-        roboto: ["Roboto Condensed", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
