@@ -27,5 +27,6 @@ export const useSmoothScroll = () => {
     scrollToId,
     scrollToTop,
     scrollToBottom,
+    lenis: lenis,
   };
 };
