@@ -70,67 +70,78 @@ export default function Header() {
 
         <AnimatePresence>
           {isOpen && (
-            <motion.div
-              key="mobile-menu"
-              initial={{ x: "100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "100%" }}
-              transition={{
-                duration: 0.25,
-                ease: !isOpen ? [0.32, 0, 0.67, 0] : [0.25, 1, 0.5, 1],
-              }}
-              className="fixed top-0 right-0 w-3/4 max-w-xs h-dvh bg-[#191919] flex flex-col items-start justify-between px-8 gap-y-6 py-6 md:hidden shadow-lg z-40 pt-20 border-l border-primary"
-            >
-              <div className="grid grid-rows-[4rem_1px_4rem_1px_4rem] w-full items-center">
-                <a
-                  className="text-white text-lg hover:text-primary"
-                  onClick={() => {
-                    setIsOpen(false);
-                    setTimeout(() => {
-                      scrollToId("aboutme");
-                    }, 1);
-                  }}
-                >
-                  About me
-                </a>
-                <div className="h-px bg-white/50 w-full"></div>
-                <a
-                  className="text-white text-lg hover:text-primary"
-                  onClick={() => {
-                    setIsOpen(false);
-                    setTimeout(() => {
-                      scrollToId("experience");
-                    }, 1);
-                  }}
-                >
-                  Experience
-                </a>
-                <div className="h-px bg-white/50 w-full"></div>
-                <a
-                  href="#comoempezar"
-                  className="text-white text-lg hover:text-primary"
-                  onClick={() => {
-                    setIsOpen(false);
-                    setTimeout(() => {
-                      scrollToId("projects");
-                    }, 1);
-                  }}
-                >
-                  Projects
-                </a>
-              </div>
-              <a
-                onClick={() => {
-                  setIsOpen(false);
-                  setTimeout(() => {
-                    scrollToBottom();
-                  }, 1);
+            <>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="fixed inset-0 h-dvh bg-black/70 backdrop-blur-xl z-40 md:hidden touch-none"
+              />
+              <motion.div
+                key="mobile-menu"
+                initial={{ x: "100%" }}
+                animate={{ x: 0 }}
+                exit={{ x: "100%" }}
+                transition={{
+                  duration: 0.25,
+                  ease: !isOpen ? [0.32, 0, 0.67, 0] : [0.25, 1, 0.5, 1],
                 }}
-                className="bg-primary text-white px-6 py-2 rounded-xl cursor-pointer flex items-center justify-center w-full"
+                className="fixed top-0 right-0 w-3/4 max-w-xs h-dvh bg-[#191919] flex flex-col items-start justify-between px-8 gap-y-6 py-6 md:hidden shadow-lg z-40 pt-20 border-l border-primary"
               >
-                Get in touch
-              </a>
-            </motion.div>
+                <div className="grid grid-rows-[4rem_1px_4rem_1px_4rem] w-full items-center">
+                  <a
+                    className="text-white text-lg"
+                    onClick={() => {
+                      setIsOpen(false);
+                      setTimeout(() => {
+                        scrollToId("aboutme");
+                      }, 1);
+                    }}
+                  >
+                    About me
+                  </a>
+                  <div className="h-px bg-white/50 w-full"></div>
+                  <a
+                    className="text-white text-lg"
+                    onClick={() => {
+                      setIsOpen(false);
+                      setTimeout(() => {
+                        scrollToId("experience");
+                      }, 1);
+                    }}
+                  >
+                    Experience
+                  </a>
+                  <div className="h-px bg-white/50 w-full"></div>
+                  <a
+                    href="#comoempezar"
+                    className="text-white text-lg"
+                    onClick={() => {
+                      setIsOpen(false);
+                      setTimeout(() => {
+                        scrollToId("projects");
+                      }, 1);
+                    }}
+                  >
+                    Projects
+                  </a>
+                  <div className="h-px bg-white/50 w-full"></div>
+                </div>
+
+                <a
+                  onClick={() => {
+                    setIsOpen(false);
+                    setTimeout(() => {
+                      scrollToBottom();
+                    }, 1);
+                  }}
+                  className="bg-primary text-white px-6 py-2 rounded-xl cursor-pointer flex items-center justify-center w-full"
+                >
+                  Get in touch
+                </a>
+              </motion.div>
+            </>
           )}
         </AnimatePresence>
 
