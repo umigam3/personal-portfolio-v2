@@ -30,7 +30,7 @@ export default function Contact() {
             <a
               href={`mailto:${email}`}
               target="_blank"
-              className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold lg:hover:text-primary duration-200"
+              className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-bold lg:hover:text-primary duration-200"
             >
               {email}
             </a>
@@ -49,7 +49,7 @@ export default function Contact() {
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute -top-9 left-1/2 -translate-x-1/2 text-sm bg-black text-white px-2 py-1 rounded-md shadow-md whitespace-nowrap z-10"
+                    className="absolute -top-9 md:-top-12 left-1/2 -translate-x-1/2 text-sm md:text-lg bg-black text-white px-2 py-1 rounded-md shadow-md whitespace-nowrap z-10"
                   >
                     Copied!
                   </motion.span>
@@ -64,7 +64,7 @@ export default function Contact() {
           <a
             href="tel:+34636739799"
             target="_blank"
-            className="text-xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
+            className="text-xl sm:text-3xl md:text-4xl lg:text-4xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
           >
             +34 636 73 97 99
           </a>
@@ -76,14 +76,14 @@ export default function Contact() {
             href="https://www.linkedin.com/in/gerarddoncel/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
+            className="text-xl sm:text-3xl md:text-4xl lg:text-4xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
           >
             LinkedIn Profile Page
           </a>
           <div className="h-0.5 w-full bg-gray-600 opacity-50"></div>
         </div>
       </div>
-      <Cobe />
+      {/* <Cobe /> */}
     </section>
   );
 }
