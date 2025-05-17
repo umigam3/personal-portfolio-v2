@@ -76,7 +76,7 @@ export default function Header() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.3 }}
-                className="fixed inset-0 h-dvh bg-black/70 z-40 md:hidden touch-none"
+                className="fixed inset-0 h-dvh bg-black/70 z-30 md:hidden touch-none"
               />
               <motion.div
                 key="mobile-menu"
@@ -87,48 +87,53 @@ export default function Header() {
                   duration: 0.25,
                   ease: !isOpen ? [0.32, 0, 0.67, 0] : [0.25, 1, 0.5, 1],
                 }}
-                className="fixed top-0 right-0 w-3/4 max-w-xs h-dvh bg-[#191919] flex flex-col items-start justify-between px-8 gap-y-6 py-6 md:hidden shadow-lg z-40 pt-20 border-l border-primary"
+                className="fixed top-0 right-0 w-3/4 max-w-xs h-dvh bg-[#191919] flex flex-col items-start justify-between px-8 gap-y-6 py-6 md:hidden shadow-lg z-40 border-l border-primary"
               >
-                <div className="grid grid-rows-[4rem_1px_4rem_1px_4rem] w-full items-center">
-                  <a
-                    className="text-white text-lg"
-                    onClick={() => {
-                      setIsOpen(false);
-                      setTimeout(() => {
-                        scrollToId("aboutme");
-                      }, 1);
-                    }}
-                  >
-                    About me
-                  </a>
-                  <div className="h-px bg-white/50 w-full"></div>
-                  <a
-                    className="text-white text-lg"
-                    onClick={() => {
-                      setIsOpen(false);
-                      setTimeout(() => {
-                        scrollToId("experience");
-                      }, 1);
-                    }}
-                  >
-                    Experience
-                  </a>
-                  <div className="h-px bg-white/50 w-full"></div>
-                  <a
-                    href="#comoempezar"
-                    className="text-white text-lg"
-                    onClick={() => {
-                      setIsOpen(false);
-                      setTimeout(() => {
-                        scrollToId("projects");
-                      }, 1);
-                    }}
-                  >
-                    Projects
-                  </a>
-                  <div className="h-px bg-white/50 w-full"></div>
+                <div className="flex flex-col w-full">
+                  <img
+                    src="/signature.png"
+                    alt="Gerard Doncel"
+                    className="w-20 mb-10"
+                  />
+                  <div className="grid grid-rows-[4rem_1px_4rem_1px_4rem] w-full items-center">
+                    <a
+                      className="text-white text-lg"
+                      onClick={() => {
+                        setIsOpen(false);
+                        setTimeout(() => {
+                          scrollToId("aboutme");
+                        }, 1);
+                      }}
+                    >
+                      About me
+                    </a>
+                    <div className="h-px bg-white/50 w-full"></div>
+                    <a
+                      className="text-white text-lg"
+                      onClick={() => {
+                        setIsOpen(false);
+                        setTimeout(() => {
+                          scrollToId("experience");
+                        }, 1);
+                      }}
+                    >
+                      Experience
+                    </a>
+                    <div className="h-px bg-white/50 w-full"></div>
+                    <a
+                      className="text-white text-lg"
+                      onClick={() => {
+                        setIsOpen(false);
+                        setTimeout(() => {
+                          scrollToId("projects");
+                        }, 1);
+                      }}
+                    >
+                      Projects
+                    </a>
+                    <div className="h-px bg-white/50 w-full"></div>
+                  </div>
                 </div>
-
                 <a
                   onClick={() => {
                     setIsOpen(false);
