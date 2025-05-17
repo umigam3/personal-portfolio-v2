@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem] h-[calc(100svh-115px)] relative overflow-clip"
+      className="w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem] h-[calc(100dvh-115px)] relative overflow-clip"
     >
       <SectionTitle label="Contact" />
       <div className="flex flex-col gap-10">
