@@ -16,7 +16,7 @@ const Time = ({ time }: Props) => {
   const amPm = formattedTime.slice(-2);
 
   return (
-    <span className="flex gap-2 items-start text-7xl tabular-nums font-poppins uppercase font-semibold">
+    <span className="flex gap-2 items-start text-7xl tabular-nums font-poppins uppercase font-bold">
       <span>{timeWithoutAmPm}</span>
       <span className="text-3xl">{amPm}</span>
     </span>
