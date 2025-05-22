@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 
-import Cobe from "@/components/ui/Cobe";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { Copy } from "@/components/icons";
 import { motion, AnimatePresence } from "framer-motion";
@@ -20,13 +19,13 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem] h-[calc(100dvh-115px)] relative overflow-clip"
+      className="w-full max-w-[1520px] mx-auto px-5 md:px-[5.5rem] h-[calc(100dvh-115px)] relative"
     >
       <SectionTitle label="Contact" />
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-4 md:gap-10">
         <div className="flex flex-col gap-3 mb-2">
           <span className="font-semibold uppercase opacity-50">Email</span>
-          <div className="flex gap-4 items-center mb-4 md:mb-6">
+          <div className="flex gap-4 items-center mb-3 md:mb-6">
             <a
               href={`mailto:${email}`}
               target="_blank"
@@ -64,7 +63,7 @@ export default function Contact() {
           <a
             href="tel:+34636739799"
             target="_blank"
-            className="text-xl sm:text-3xl md:text-4xl lg:text-4xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
+            className="text-xl sm:text-3xl md:text-4xl lg:text-4xl mb-3 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
           >
             +34 636 73 97 99
           </a>
@@ -76,14 +75,13 @@ export default function Contact() {
             href="https://www.linkedin.com/in/gerarddoncel/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xl sm:text-3xl md:text-4xl lg:text-4xl mb-4 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
+            className="text-xl sm:text-3xl md:text-4xl lg:text-4xl mb-3 md:mb-6 font-bold lg:hover:text-primary duration-200 w-fit"
           >
             LinkedIn Profile Page
           </a>
           <div className="h-0.5 w-full bg-gray-600 opacity-50"></div>
         </div>
       </div>
-      {/* <Cobe /> */}
     </section>
   );
 }
