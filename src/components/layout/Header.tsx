@@ -83,9 +83,9 @@ export default function Header() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
               transition={{ duration: 0.2, ease: "easeOut" }}
-              className="fixed top-24 right-5 w-2/4 max-w-xs flex flex-col items-start justify-between bg-black/10 p-4 md:hidden backdrop-blur-xl rounded-2xl bg-clip-padding backdrop-filter bg-opacity-10 border border-gray-500 z-40"
+              className="fixed top-24 right-5 w-3/4 max-w-xs flex flex-col items-start justify-between bg-black/10 p-4 md:hidden backdrop-blur-xl rounded-2xl bg-clip-padding backdrop-filter bg-opacity-10 border border-gray-500 z-40"
             >
-              <div className="flex flex-col w-full gap-1.5">
+              <div className="flex flex-col w-full gap-2">
                 <a
                   className="text-white text-lg cursor-pointer"
                   onClick={() => {
