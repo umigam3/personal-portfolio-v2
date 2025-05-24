@@ -23,7 +23,17 @@ export default function Contact() {
     >
       <SectionTitle label="Contact" />
       <div className="flex flex-col gap-4 md:gap-10">
-        <div className="flex flex-col gap-3 mb-2">
+        <motion.div
+          className="flex flex-col gap-3 mb-2"
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 1 },
+            type: "ease",
+          }}
+          viewport={{ once: true }}
+        >
           <span className="font-semibold uppercase opacity-50">Email</span>
           <div className="flex gap-4 items-center mb-3 md:mb-6">
             <a
@@ -57,8 +67,18 @@ export default function Contact() {
             </button>
           </div>
           <div className="h-0.5 w-full bg-gray-600 opacity-50"></div>
-        </div>
-        <div className="flex flex-col gap-3 mb-2">
+        </motion.div>
+        <motion.div
+          className="flex flex-col gap-3 mb-2"
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 1 },
+            type: "ease",
+          }}
+          viewport={{ once: true }}
+        >
           <span className="font-semibold uppercase opacity-50">Phone</span>
           <a
             href="tel:+34636739799"
@@ -68,8 +88,18 @@ export default function Contact() {
             +34 636 73 97 99
           </a>
           <div className="h-0.5 w-full bg-gray-600 opacity-50"></div>
-        </div>
-        <div className="flex flex-col gap-3 mb-2">
+        </motion.div>
+        <motion.div
+          className="flex flex-col gap-3 mb-2"
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 1 },
+            type: "ease",
+          }}
+          viewport={{ once: true }}
+        >
           <span className="font-semibold uppercase opacity-50">LinkedIn</span>
           <a
             href="https://www.linkedin.com/in/gerarddoncel/"
@@ -80,7 +110,7 @@ export default function Contact() {
             LinkedIn Profile Page
           </a>
           <div className="h-0.5 w-full bg-gray-600 opacity-50"></div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

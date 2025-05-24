@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function ExperienceCard({
   date,
   position,
@@ -16,7 +18,15 @@ export default function ExperienceCard({
   return (
     <div className="relative w-full pb-6">
       <div className="hidden lg:block absolute ml-2 lg:ml-0 bg-[#F47B2A] w-4 h-4 rounded-full top-4 left-0 lg:left-1/2 transform -translate-x-1/2 mt-1.5"></div>
-      <div
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: { duration: 1 },
+          type: "ease",
+        }}
+        viewport={{ once: true }}
         className={`relative lg:ml-0 bg-black/20 py-4 lg:rounded-none rounded-bl-xl rounded-tl-xl
             ${
               side == "right"
@@ -48,7 +58,7 @@ export default function ExperienceCard({
           {" "}
           {children}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

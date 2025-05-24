@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { motion } from "framer-motion";
 
 export default function ProjectCard({
   title,
@@ -6,6 +7,7 @@ export default function ProjectCard({
   description,
   skills,
   buttons,
+  delay,
 }: {
   title: string;
   source: string;
@@ -15,7 +17,17 @@ export default function ProjectCard({
   buttons: ReactNode;
 }) {
   return (
-    <div className="flex flex-col mb-8 w-full bg-black/20 rounded-lg">
+    <motion.div
+      className="flex flex-col mb-8 w-full bg-black/20 rounded-lg"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+        transition: { duration: 1 },
+        type: "easeOut",
+      }}
+      viewport={{ once: true }}
+    >
       <div className="project-image w-full overflow-hidden rounded-t-lg">
         <img
           className="w-full aspect-video object-contain hover:animate-zoomIn"
@@ -45,6 +57,6 @@ export default function ProjectCard({
           );
         }
       `}</style>
-    </div>
+    </motion.div>
   );
 }
