@@ -7,7 +7,6 @@ export default function ProjectCard({
   description,
   skills,
   buttons,
-  delay,
 }: {
   title: string;
   source: string;
