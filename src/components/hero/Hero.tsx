@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col md:flex-row justify-between md:items-end md:h-auto h-full">
         <div>
-          <div className="flex flex-col gap-4 md:gap-6 sm:w-96 lg:w-[400px] mb-8 md:mb-0">
+          <div className="flex flex-col gap-4 md:gap-6 md:w-[340px] lg:w-[400px] mb-8 md:mb-0">
             <p className="text-lg">
               With over 2 years of experience crafting web applications with
               PHP, I’m dedicated to building{" "}
