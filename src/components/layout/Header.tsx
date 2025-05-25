@@ -85,7 +85,7 @@ export default function Header() {
               transition={{ duration: 0.2, ease: "easeOut" }}
               className="fixed top-24 right-5 w-3/5 max-w-xs flex flex-col items-start justify-between bg-black/10 p-4 md:hidden backdrop-blur-xl rounded-2xl bg-clip-padding backdrop-filter bg-opacity-10 border border-gray-500 z-40"
             >
-              <div className="flex flex-col w-full gap-2">
+              <div className="flex flex-col w-full">
                 <a
                   className="text-white text-lg cursor-pointer"
                   onClick={() => {
@@ -97,7 +97,7 @@ export default function Header() {
                 >
                   About me
                 </a>
-                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full"></div>
+                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full mb-3"></div>
                 <a
                   className="text-white text-lg cursor-pointer"
                   onClick={() => {
@@ -109,7 +109,7 @@ export default function Header() {
                 >
                   Experience
                 </a>
-                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full"></div>
+                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full mb-3"></div>
                 <a
                   className="text-white text-lg cursor-pointer"
                   onClick={() => {
@@ -121,7 +121,7 @@ export default function Header() {
                 >
                   Projects
                 </a>
-                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full"></div>
+                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full mb-3"></div>
                 <a
                   className="text-white text-lg cursor-pointer"
                   onClick={() => {
@@ -133,7 +133,7 @@ export default function Header() {
                 >
                   Contact
                 </a>
-                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full mb-1"></div>
+                <div className="h-px bg-gradient-to-r from-[#FFC76B] to-[#F47B2A] w-full mb-3"></div>
               </div>
             </motion.div>
           </>
