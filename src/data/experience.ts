@@ -28,7 +28,7 @@ export type ExperienceItem = {
 
 const experienceData: ExperienceItem[] = [
   {
-    date: "Oct 2024 - Present",
+    date: "Oct 2024 - Oct 2025",
     position: "Backend Developer",
     company: "eAgora",
     description:
