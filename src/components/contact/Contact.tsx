@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
-  const email = "gerarddoncel41@gmail.com";
+  const email = "gerard.doncel.gutierrez@gmail.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
